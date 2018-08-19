@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html manifest="/2012/site.appcache" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Program | COSCUP 2012</title>
+    <link rel="stylesheet" type="text/css" href="/2012-theme/assets/mobile.css" media="handheld, screen and (max-width: 480px)" />
+    <link rel="stylesheet" type="text/css" href="/2012-theme/assets/style.css" media="print, screen and (min-width: 481px)" />
+  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/2012-theme/assets/style.css" media="print, screen"/><![endif]-->
+    <link rel="shortcut icon" href="/2012-theme/assets/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <meta property="og:image" content="http://coscup.org/2012-theme/assets/coscup.png" />
+  <!-- Remove for now, see https://github.com/COSCUP/coscup2012-theme/issues/7
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  -->
+  <link rel="apple-touch-icon" href="/2012-theme/assets/coscup-icon-iphone.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/2012-theme/assets/coscup-icon-ipad.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/2012-theme/assets/coscup-icon-iphone4.png" />
+  <link rel="apple-touch-startup-image" href="/2012-theme/assets/coscup-startup.png" />
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12923351-1']);
+    _gaq.push(['_setDomainName', 'coscup.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+<div id="header">
+  <div class="info">
+    <h1><a href="/2012/en/" title="Home">COSCUP</a></h1>
+    <p id="title">開源人年會</p>
+    <p id="title_en">Conference for Open Source <span id="coders">Coders</span>, <span id="users">Users</span> and <span id="promoters">Promoters</span></p>
+    <p id="date_place" title="2012 年 8 月 18 – 19 日"><span id="date">8/18 – 19, 2012</span><span id="place">Taipei, Taiwan</span></p>
+    <div id="nav">
+      <ul>
+        <li><a href="http://registrano.com/events/coscup2012-regist">Register</a></li>
+<li><a href="/2012/en/about/">About Us</a></li>
+<li class="current"><a href="/2012/en/program/">Program</a></li>
+<li><a href="/2012/en/venue/">Venue</a></li>
+<li><a href="http://blog.coscup.org/">Blog</a></li>
+<li><a href="/2012/en/sponsors/">Sponsors</a></li>
+      </ul>
+    </div>
+    <div id="language">
+      <ul>
+        <li><a href="/2012/en/" title="English" lang="en">English</a></li>
+        <li><a href="/2012/zh-tw/" title="正體中文" lang="zh-TW">正體中文</a></li>
+        <li><a href="/2012/zh-cn/" title="简体中文" lang="zh-CN">简体中文</a></li>
+      </ul>
+    </div>
+    <div id="message">
+      <p>Open Device, Seamless Apps Experience</p>
+    </div>
+    <p id="mascot_icon"></p>
+    <div id="connect_box">
+      <ul>
+        <li><a title="Add to Google Calendar" target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=COSCUP+2012&amp;dates=20120818T010000Z/20120819T100000Z&amp;details=http%3A%2F%2Fcoscup.org/2012/&amp;trp=true&amp;sprop=http%3A%2F%2Fcoscup.org/2012/&amp;sprop=name:COSCUP"><span class="sprite gcal"></span></a></li>
+        <li><a title="Subscribe" target="_blank" href="http://coscup.org/2012/zh-tw/contact/#subscribe"><span class="sprite newspaper"></span></a></li>
+        <li><a title="Facebook Page" href="https://www.facebook.com/coscup" target="_blank"><span class="sprite facebook"></span></a></li>
+        <li><a title="Twitter" href="https://twitter.com/coscup" target="_blank"><span class="sprite twitter"></span></a></li>
+        <li><a title="Plurk" href="http://www.plurk.com/coscup" target="_blank"><span class="sprite plurk"></span></a></li>
+        <li><a title="Flickr" href="http://www.flickr.com/photos/coscup/" target="_blank"><span class="sprite flickr"></span></a></li>
+        <li><a title="YouTube" href="http://www.youtube.com/user/thecoscup" target="_blank"><span class="sprite youtube"></span></a></li>
+        <li><a title="Blog RSS Feed" href="http://feeds.feedburner.com/coscup" target="_blank"><span class="sprite rss"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="content">
+<p><strong>The program is subject to change without notice.</strong></p>
+
+<ul class="shortcuts"><li><a href="#day1">Day 1</a></li>
+<li><a href="#day2">Day 2</a></li>
+</ul>
+
+<ul class="types"><li class="program_type_1">KDE/openSUSE</li>
+<li class="program_type_2">Workshop</li>
+<li class="program_type_3">Next-Generation OS</li>
+<li class="program_type_4">Virtualization</li>
+<li class="program_type_5">OS Develop</li>
+<li class="program_type_6">Community</li>
+<li class="program_type_7">Scripting</li>
+<li class="program_type_8">Legal</li>
+<li class="program_type_9">Cloud</li>
+<li class="program_type_10">Develop Tool</li>
+<li class="program_type_11">Web</li>
+<li class="program_type_12">User</li>
+<li class="program_type_13">Unconference</li>
+</ul>
+
+<h2 id="day1">Day 1 (8/18)</h2>
+<table class="program">
+<thead>
+	<tr><th>Time</th>
+<th>Int'l Conf. Room</th><th>First Conf. Room</th><th>Second Conf. Room</th><th>Social Room</th><th>Activity Center</th>	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th rel="1345248900"><span>08:15</span> — 09:00</th>
+		<td data-pid="0" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Check In</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345251600"><span>09:00</span> — 09:10</th>
+		<td data-pid="1" class="program_type_0 program_room_0" colspan="5" rowspan="1"><p class="name">Opening / 開幕式</p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">COSCUP Organizer</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345252200"><span>09:10</span> — 10:10</th>
+		<td data-pid="2" class="program_lang_zh program_type_9 program_room_0" colspan="5" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Keynote:-Windows-Azure如何擁抱開源社群">Keynote: Windows Azure如何擁抱開源社群</a></p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">上官林傑 (ericsk)</p><p class="speakerTitle">Microsoft Technical Evangelist</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345255800"><span>10:10</span> — 10:30</th>
+		<td data-pid="3" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Tea Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345257000"><span>10:30</span> — 11:00</th>
+		<td data-pid="5" class="program_lang_zh program_type_3 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#JavaScript-全面逆襲！使用-Node.js-打造桌面環境！">JavaScript 全面逆襲！使用 Node.js 打造桌面環境！</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">錢逢祥 (Fred)</p></td>
+</td>
+		<td data-pid="6" class="program_lang_zh program_type_4 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#ARMvisor：ARM架構上系統虛擬機的實作">ARMvisor：ARM架構上系統虛擬機的實作 </a></p><p class="room">First Conf. Room</p><p class="speaker">Peter Chang</p></td>
+</td>
+		<td data-pid="7" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Review-&-walk-through-openSUSE-12.2">Review &amp; walk through openSUSE 12.2</a></p><p class="room">Second Conf. Room</p><p class="speaker">Michael Chang</p></td>
+</td>
+		<td data-pid="4" class="program_type_0 program_room_4" colspan="1" rowspan="4"><p class="name">Social Room</p><p class="room">Social Room</p></td>
+</td>
+		<td data-pid="8" class="program_type_2 program_room_5" colspan="1" rowspan="4"><p class="name"><a rel="nocache" href="abstract/#Workshop:
+LibreOffice-幫幫忙">Workshop:
+LibreOffice 幫幫忙</a></p><p class="room">Activity Center</p><p class="speaker">LibreOffice臺灣社群</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345258800"><span>11:00</span> — 11:30</th>
+		<td data-pid="9" class="program_lang_zh program_type_3 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#SlateKit---Open-Source-tablet-UX-building-kit">SlateKit - Open Source tablet UX building kit</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Ping-Hsun Chen (penk)</p></td>
+</td>
+		<td data-pid="10" class="program_lang_zh program_type_4 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#PQEMU:-A-Parallel-System-Emulator-Based-on-QEMU">PQEMU: A Parallel System Emulator Based on QEMU</a></p><p class="room">First Conf. Room</p><p class="speaker">Aquila (丁俊宏)</p></td>
+</td>
+		<td data-pid="11" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#openSUSE-KDE-maintenance-model">openSUSE KDE maintenance model</a></p><p class="room">Second Conf. Room</p><p class="speaker">Max Lin</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345260600"><span>11:30</span> — 12:00</th>
+		<td data-pid="12" class="program_lang_zh program_type_3 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Gaia-Virtual-Keyboard-and-Predictive-Text-Feature-for-B2G">Gaia Virtual Keyboard and Predictive Text Feature for B2G</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Rudy Lu</p></td>
+</td>
+		<td data-pid="13" class="program_lang_zh program_type_4 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#How-to-write-a-SNES-emulator-in-Javascript">How to write a SNES emulator in Javascript</a></p><p class="room">First Conf. Room</p><p class="speaker">魏澤人 (weijr)</p></td>
+</td>
+		<td data-pid="14" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Qt5,-Qt-Quick-2-and--Qt-open-governance-develop-model">Qt5, Qt Quick 2 and  Qt open governance develop model</a></p><p class="room">Second Conf. Room</p><p class="speaker">殷允峤</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345262400"><span>12:00</span> — 12:30</th>
+		<td data-pid="15" class="program_lang_zh program_type_3 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#JavaOS-for-tiny-device">JavaOS for tiny device</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">王佑中 (wycc)</p></td>
+</td>
+		<td data-pid="16" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Code:-改變未來的力量">Code: 改變未來的力量</a></p><p class="room">First Conf. Room</p><p class="speaker">Sam Ding (丁俊宏)</p></td>
+</td>
+		<td data-pid="17" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Qt5,-Qt-Quick-2-and--Qt-open-governance-develop-model">Qt5, Qt Quick 2 and  Qt open governance develop model</a></p><p class="room">Second Conf. Room</p><p class="speaker">殷允峤</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345264200"><span>12:30</span> — 13:30</th>
+		<td data-pid="18" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Lunch</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345267800"><span>13:30</span> — 14:30</th>
+		<td data-pid="19" class="program_lang_en program_type_1 program_room_0" colspan="5" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Keynote:-Finding-Our-Way-Together:-How-Global-Open-Source-Communities-Work">Keynote: Finding Our Way Together: How Global Open Source Communities Work</a></p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">Aaron Seigo,
+Will Stephenson</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345271400"><span>14:30</span> — 14:40</th>
+		<td data-pid="20" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345272000"><span>14:40</span> — 15:10</th>
+		<td data-pid="21" class="program_lang_en program_type_5 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#LTSI-:-Yet-another-long-term-stable-kernel-for-industry-use">LTSI : Yet another long-term stable kernel for industry use </a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Hisao Munakata</p></td>
+</td>
+		<td data-pid="22" class="program_lang_en program_type_6 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Debian-general-presentation:-a-project,-OS-and-community">Debian general presentation: a project, OS and community</a></p><p class="room">First Conf. Room</p><p class="speaker">Thomas Goirand</p></td>
+</td>
+		<td data-pid="23" class="program_lang_en program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Developing-Mobile-Applications-With-Plasma-Active">Developing Mobile Applications With Plasma Active</a></p><p class="room">Second Conf. Room</p><p class="speaker">Aaron Seigo</p></td>
+</td>
+		<td data-pid="24" class="program_type_0 program_room_4" colspan="1" rowspan="7"><p class="name">Social Room</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345273800"><span>15:10</span> — 15:30</th>
+		<td data-pid="26" class="program_lang_zh program_type_5 program_room_1" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#Linaro:-the-new-way-to-install-Debian-on-various-ARM-devices">Linaro: the new way to install Debian on various ARM devices</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Ying-Chun Liu (Paulliu)</p></td>
+</td>
+		<td data-pid="27" class="program_lang_zh program_type_9 program_room_2" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#基於開源碼所開發的雲端管理平台">基於開源碼所開發的雲端管理平台</a></p><p class="room">First Conf. Room</p><p class="speaker">Wenyu Chen</p><p class="speakerTitle">數位無限軟體總經理</p></td>
+</td>
+		<td data-pid="28" class="program_lang_en program_type_1 program_room_3" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#Redefining-"Groupware"-With-Server-Side-Akonadi">Redefining &quot;Groupware&quot; With Server-Side Akonadi</a></p><p class="room">Second Conf. Room</p><p class="speaker">Paul Adams</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345275000"><span>15:30</span> — 15:40</th>
+		<td data-pid="25" class="program_type_2 program_room_5" colspan="1" rowspan="5"><p class="name"><a rel="nocache" href="abstract/#Workshop:
+侏儒作業系統研習營">Workshop:
+侏儒作業系統研習營</a></p><p class="room">Activity Center</p><p class="speaker">JuluOSDev(星系統社群)</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345275600"><span>15:40</span> — 16:00</th>
+		<td data-pid="29" class="program_type_0 program_room_0 program_break" colspan="3" rowspan="1"><p class="name">Tea Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345276800"><span>16:00</span> — 16:30</th>
+		<td data-pid="30" class="program_lang_zh program_type_7 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Translate-bytecode-of-CPython-to-Mozilla-SpiderMonkey">Translate bytecode of CPython to Mozilla SpiderMonkey </a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Thinker</p></td>
+</td>
+		<td data-pid="31" class="program_lang_zh program_type_8 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#開源程式語言授權之旅：Perl/Python/-PHP/Ruby/-Scala/Node.js-的智財權挑戰">開源程式語言授權之旅：Perl/Python/ PHP/Ruby/ Scala/Node.js 的智財權挑戰 </a></p><p class="room">First Conf. Room</p><p class="speaker">ant</p></td>
+</td>
+		<td data-pid="32" class="program_lang_en program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Lightweight-KDE">Lightweight KDE</a></p><p class="room">Second Conf. Room</p><p class="speaker">Will Stephenson</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345278600"><span>16:30</span> — 17:00</th>
+		<td data-pid="33" class="program_lang_zh program_type_7 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Python-Type-based-Class-v.s.-Javascript-Prototype">Python Type-based Class v.s. Javascript Prototype</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Hsin-Yi Chen</p></td>
+</td>
+		<td data-pid="34" class="program_lang_en program_type_8 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Linux,-Patents-and-Open-Invention-Network:-Protecting-Freedom-Through-Collaboration-and-Partnership">Linux, Patents and Open Invention Network: Protecting Freedom Through Collaboration and Partnership </a></p><p class="room">First Conf. Room</p><p class="speaker">Shane Coughlan</p></td>
+</td>
+		<td data-pid="35" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Develop-and-Maintain-a-Distro-with-Open-Build-Service">Develop and Maintain a Distro with Open Build Service</a></p><p class="room">Second Conf. Room</p><p class="speaker">Gary Lin</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345280400"><span>17:00</span> — 17:30</th>
+		<td data-pid="36" class="program_lang_zh program_type_7 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#How-to-write-a-bash-script-like-python?">How to write a bash script like python?</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">黃宇新 (lloyd huang)</p></td>
+</td>
+		<td data-pid="37" class="program_lang_zh program_type_8 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#從商標認識自由開源軟體">從商標認識自由開源軟體 </a></p><p class="room">First Conf. Room</p><p class="speaker">葛冬梅</p></td>
+</td>
+		<td data-pid="38" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#urfkill-daemon-introduction">urfkill daemon introduction</a></p><p class="room">Second Conf. Room</p><p class="speaker">Joey Lee</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345282200"><span>17:30</span> — 17:40</th>
+		<td data-pid="39" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345282800"><span>17:40</span> — 18:30</th>
+		<td data-pid="40" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Lightning Talk 閃電秀</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345285800"><span>18:30</span> — 18:40</th>
+		<td data-pid="41" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">宣佈 BOF</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345286400"><span>18:40</span> — 21:00</th>
+		<td data-pid="42" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">BoF, Birds of a Feather</p></td>
+</td>
+</tr>
+
+</tbody></table>
+<h2 id="day2">Day 2 (8/19)</h2>
+<table class="program">
+<thead>
+	<tr><th>Time</th>
+<th>Int'l Conf. Room</th><th>First Conf. Room</th><th>Second Conf. Room</th><th>Social Room</th><th>Activity Center</th>	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th rel="1345335300"><span>08:15</span> — 09:00</th>
+		<td data-pid="43" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Check In</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345338000"><span>09:00</span> — 09:10</th>
+		<td data-pid="44" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Announcement</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345338600"><span>09:10</span> — 10:10</th>
+		<td data-pid="45" class="program_lang_zh program_type_9 program_room_0" colspan="5" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Keynote:-Open-Up-the-Cloud">Keynote: Open Up the Cloud</a></p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">Ted Chang</p><p class="speakerTitle">Vice President and Chief Technology Officer (CTO) of Quanta Computer Inc.</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345342200"><span>10:10</span> — 10:30</th>
+		<td data-pid="46" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Tea Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345343400"><span>10:30</span> — 11:00</th>
+		<td data-pid="48" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#超多核心架構及應用開發實例">超多核心架構及應用開發實例</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">宋振華</p><p class="speakerTitle">廣達研究院 處長</p></td>
+</td>
+		<td data-pid="49" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#MCLinker-–-an-LLVM-Linker-for-Mobile-Computing">MCLinker – an LLVM Linker for Mobile Computing</a></p><p class="room">First Conf. Room</p><p class="speaker">陳柏聿</p></td>
+</td>
+		<td data-pid="50" class="program_lang_zh program_type_11 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Tool-Objects-in-jQuery">Tool Objects in jQuery</a></p><p class="room">Second Conf. Room</p><p class="speaker">高偉格 (othree)</p></td>
+</td>
+		<td data-pid="51" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">五行完成網頁多國語系</p><p class="room">Social Room</p><p class="speaker">Amos</p></td>
+</td>
+		<td data-pid="47" class="program_type_2 program_room_5" colspan="1" rowspan="4"><p class="name"><a rel="nocache" href="abstract/#Workshop:
+如何使用EZo-Engine快速打造Web應用，結合Google-App-Engine建立雲端服務">Workshop:
+如何使用EZo Engine快速打造Web應用，結合Google App Engine建立雲端服務</a></p><p class="room">Activity Center</p><p class="speaker">EZoEngine</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345345200"><span>11:00</span> — 11:30</th>
+		<td data-pid="52" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Build-your-PHP-application-on-Heroku">Build your PHP application on Heroku</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">ronnywang</p><p class="speakerTitle">PIXNET Web Developer</p></td>
+</td>
+		<td data-pid="53" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Emacs---程式開發神兵利器">Emacs - 程式開發神兵利器</a></p><p class="room">First Conf. Room</p><p class="speaker">陳侃如 (Kanru)</p></td>
+</td>
+		<td data-pid="54" class="program_lang_zh program_type_11 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Twitter-Bootstrap">Twitter Bootstrap</a></p><p class="room">Second Conf. Room</p><p class="speaker">Even</p></td>
+</td>
+		<td data-pid="55" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">手機控制家電</p><p class="room">Social Room</p><p class="speaker">kylin</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345347000"><span>11:30</span> — 12:00</th>
+		<td data-pid="56" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#When-Big-Data-Meet-Python">When Big Data Meet Python</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Jimmy Lai</p></td>
+</td>
+		<td data-pid="57" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Better-node.js-software-release-practice-using-open-source-tool">Better node.js software release practice using open source tool</a></p><p class="room">First Conf. Room</p><p class="speaker">thegiive</p></td>
+</td>
+		<td data-pid="58" class="program_lang_zh program_type_11 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#javascriptMVC---another-full-solution-javascript-MVC-framework">javascriptMVC - another full solution javascript MVC framework</a></p><p class="room">Second Conf. Room</p><p class="speaker">Alive</p></td>
+</td>
+		<td data-pid="59" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Mono, .NET and OSS future</p><p class="room">Social Room</p><p class="speaker">Atsushi Eno</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345348800"><span>12:00</span> — 12:30</th>
+		<td data-pid="60" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#大強子網格運算與OSS-----告訴你機關雲怎麼做計算">大強子網格運算與OSS  -- 告訴你機關雲怎麼做計算</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">YChao (趙元)</p></td>
+</td>
+		<td data-pid="61" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#結合-Jenkins-+-Testopia-讓你的自動化測試和報告更Easy">結合 Jenkins + Testopia 讓你的自動化測試和報告更Easy</a></p><p class="room">First Conf. Room</p><p class="speaker">Linda Hsin (辛瑞玲) &amp; Alex.YT Chen (陳億宗)</p></td>
+</td>
+		<td data-pid="62" class="program_lang_zh program_type_11 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#MySQL-System-Stability">MySQL System Stability</a></p><p class="room">Second Conf. Room</p><p class="speaker">Gea-Suan Lin (gslin)</p><p class="speakerTitle">KKBOX 平台技術首席工程師</p></td>
+</td>
+		<td data-pid="63" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">kross – built a friednly environment for Floss + Art</p><p class="room">Social Room</p><p class="speaker">Shengpo</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345350600"><span>12:30</span> — 13:30</th>
+		<td data-pid="64" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Lunch</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345354200"><span>13:30</span> — 14:00</th>
+		<td data-pid="65" class="program_lang_zh program_type_5 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#第一次自幹作業系統核心就上手">第一次自幹作業系統核心就上手 </a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Jserv</p></td>
+</td>
+		<td data-pid="66" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#2012-Hadoop-Summit-Sharing">2012 Hadoop Summit Sharing</a></p><p class="room">First Conf. Room</p><p class="speaker">Yi-Kai Tsai</p><p class="speakerTitle">Sr. Engineering Manager of Yahoo! Taiwan Search</p></td>
+</td>
+		<td data-pid="67" class="program_lang_zh program_type_10 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#用-LibFM-+-GTK+-開發你自己的-Linux-桌面檔案管理程式">用 LibFM + GTK+ 開發你自己的 Linux 桌面檔案管理程式</a></p><p class="room">Second Conf. Room</p><p class="speaker">PCMan</p></td>
+</td>
+		<td data-pid="68" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345356000"><span>14:00</span> — 14:30</th>
+		<td data-pid="69" class="program_lang_en program_type_5 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Content-Centric-Embedded-~Treasure-Hunting-Robot~">Content-Centric Embedded ~Treasure Hunting Robot~</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Imamura Noritsuna</p></td>
+</td>
+		<td data-pid="70" class="program_lang_zh program_type_10 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#人人能編程是可能的嗎？---視覺化編程-Blockly-與周蟒">人人能編程是可能的嗎？-- 視覺化編程 Blockly 與周蟒</a></p><p class="room">First Conf. Room</p><p class="speaker">林育民(gasolin)</p></td>
+</td>
+		<td data-pid="71" class="program_lang_zh program_type_7 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#LiveScript---duty-free-javaScript-/免稅-JavaScript">LiveScript - duty-free javaScript /免稅 JavaScript</a></p><p class="room">Second Conf. Room</p><p class="speaker">clkao</p></td>
+</td>
+		<td data-pid="72" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345357800"><span>14:30</span> — 14:40</th>
+		<td data-pid="73" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345358400"><span>14:40</span> — 15:10</th>
+		<td data-pid="74" class="program_lang_zh program_type_8 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#From-Open-Source-to-Open-Data－從OpenStreetMap的授權轉換看公開資料授權">From Open Source to Open Data－從OpenStreetMap的授權轉換看公開資料授權 </a></p><p class="room">Int'l Conf. Room</p><p class="speaker">林誠夏</p></td>
+</td>
+		<td data-pid="75" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#浴火重生的自由之翼：歡迎光臨Apache-OpenOffice-3.4">浴火重生的自由之翼：歡迎光臨Apache OpenOffice 3.4</a></p><p class="room">First Conf. Room</p><p class="speaker">依瑪貓／楊士青</p></td>
+</td>
+		<td data-pid="76" class="program_lang_en program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Owncloud">Owncloud</a></p><p class="room">Second Conf. Room</p><p class="speaker">Will Stephenson</p></td>
+</td>
+		<td data-pid="77" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345360200"><span>15:10</span> — 15:30</th>
+		<td data-pid="79" class="program_lang_en program_type_8 program_room_1" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#Defensive-Publications---Ensuring-"Freedom-Of-Use"-In-The-Open-Source-Community">Defensive Publications - Ensuring &quot;Freedom Of Use&quot; In The Open Source Community</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Armijn Hemel</p></td>
+</td>
+		<td data-pid="80" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#邁向-LibreOffice-之路">邁向 LibreOffice 之路</a></p><p class="room">First Conf. Room</p><p class="speaker">Cheng-Chia Tseng (zerng07)</p></td>
+</td>
+		<td data-pid="81" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="2"><p class="name"><a rel="nocache" href="abstract/#讓我們用最潮的-JavaScript-盡情開發-KDE/Qt-應用程式">讓我們用最潮的 JavaScript 盡情開發 KDE/Qt 應用程式</a></p><p class="room">Second Conf. Room</p><p class="speaker">錢逢祥 (Fred)</p></td>
+</td>
+		<td data-pid="82" class="program_type_0 program_room_4" colspan="1" rowspan="2"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345361400"><span>15:30</span> — 15:40</th>
+		<td data-pid="78" class="program_type_2 program_room_5" colspan="1" rowspan="5"><p class="name"><a rel="nocache" href="abstract/#Workshop:
+介紹-Fire.app-與-HTML-prototyping">Workshop:
+介紹 Fire.app 與 HTML prototyping
+</a></p><p class="room">Activity Center</p><p class="speaker">HappyDesigner MeetupHandlino Inc.</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345362000"><span>15:40</span> — 16:00</th>
+		<td data-pid="83" class="program_type_0 program_room_0 program_break" colspan="4" rowspan="1"><p class="name">Tea Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345363200"><span>16:00</span> — 16:30</th>
+		<td data-pid="84" class="program_lang_zh program_type_3 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#HTML5-Rocks-on-Windows-8">HTML5 Rocks on Windows 8</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">上官林傑 (ericsk)</p><p class="speakerTitle">Microsoft Technical Evangelist</p></td>
+</td>
+		<td data-pid="85" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#迎接-retina-大航海時代來臨，來談一下-SVG">迎接 retina 大航海時代來臨，來談一下 SVG</a></p><p class="room">First Conf. Room</p><p class="speaker">鄭鴻旗 (honki)</p></td>
+</td>
+		<td data-pid="86" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Getting-Involved-in-KDE-Development">Getting Involved in KDE Development</a></p><p class="room">Second Conf. Room</p><p class="speaker">Acelan Kao (高嘉璘)</p></td>
+</td>
+		<td data-pid="87" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345365000"><span>16:30</span> — 17:00</th>
+		<td data-pid="88" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Etu-DataFlow:-An-efficient-data-streaming-&-pre-processing-framework-designed-for-Hadoop">Etu DataFlow: An efficient data streaming &amp; pre-processing framework designed for Hadoop</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">Johnny Nien</p></td>
+</td>
+		<td data-pid="89" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#在RepRap架構下開發擴充-傾斜式生成平台">在RepRap架構下開發擴充-傾斜式生成平台 </a></p><p class="room">First Conf. Room</p><p class="speaker">Kamm (闞凱宇)</p></td>
+</td>
+		<td data-pid="90" class="program_lang_en program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#New-Issues-of-Japanese-and-Other-East-Asian-Languages-in-KDE-and-Qt">New Issues of Japanese and Other East Asian Languages in KDE and Qt</a></p><p class="room">Second Conf. Room</p><p class="speaker">Daisuke Kameda &amp; Jumpei Okawa</p></td>
+</td>
+		<td data-pid="91" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345366800"><span>17:00</span> — 17:30</th>
+		<td data-pid="92" class="program_lang_zh program_type_9 program_room_1" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#一朵雲該怎麼長">一朵雲該怎麼長</a></p><p class="room">Int'l Conf. Room</p><p class="speaker">黃文銘 (Panda Wen-Ming Huang)</p><p class="speakerTitle">台達電子雲端事業處\工程師</p></td>
+</td>
+		<td data-pid="93" class="program_lang_zh program_type_12 program_room_2" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#(新)酷音輸入法-12-年發展回顧">(新)酷音輸入法 12 年發展回顧 </a></p><p class="room">First Conf. Room</p><p class="speaker">Jserv</p></td>
+</td>
+		<td data-pid="94" class="program_lang_zh program_type_1 program_room_3" colspan="1" rowspan="1"><p class="name"><a rel="nocache" href="abstract/#Let-KDE-Set-You-Free">Let KDE Set You Free</a></p><p class="room">Second Conf. Room</p><p class="speaker">Alvin Su (蘇仕文)</p></td>
+</td>
+		<td data-pid="95" class="program_type_0 program_room_4" colspan="1" rowspan="1"><p class="name">Unconference</p><p class="room">Social Room</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345368600"><span>17:30</span> — 17:40</th>
+		<td data-pid="96" class="program_type_0 program_room_0 program_break" colspan="5" rowspan="1"><p class="name">Break</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345369200"><span>17:40</span> — 18:00</th>
+		<td data-pid="97" class="program_type_0 program_room_0" colspan="5" rowspan="1"><p class="name">Lightning Talk 閃電秀</p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">Lightning Talk Speakers</p></td>
+</td>
+</tr>
+
+	<tr>
+		<th rel="1345370400"><span>18:00</span> — 18:15</th>
+		<td data-pid="98" class="program_type_0 program_room_0" colspan="5" rowspan="1"><p class="name">Closing / 閉幕式</p><p class="room">All Conf. Rooms (Live)</p><p class="speaker">COSCUP Organizer</p></td>
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div id="sidebar">
+  <div class="sponsors">
+<h2>Diamond Level Sponsors</h2>
+<ul class="diamond">
+<li><a href="http://quanta-research.net/event/COSCUP2012/" target="_blank" title="Quanta Research"><img src="http://coscup.org/2012/logos/quanta.png" width="178" height="72" alt="Quanta Research"/></a></li>
+<li><a href="http://www.microsoft.com/" target="_blank" title="Microsoft"><img src="http://coscup.org/2012/logos/microsoft.png" width="178" height="72" alt="Microsoft"/></a></li>
+</ul>
+<h2>Gold Level Sponsors</h2>
+<ul class="gold">
+<li><a href="http://www.appuniverz.org" target="_blank" title="AppUniverz"><img src="http://coscup.org/2012/logos/appuniverz.png" width="178" height="72" alt="AppUniverz"/></a></li>
+<li><a href="http://www.kkbox.com" target="_blank" title="KKBOX"><img src="http://coscup.org/2012/logos/kkbox.png" width="178" height="72" alt="KKBOX"/></a></li>
+<li><a href="http://www.delta.com.tw/" target="_blank" title="Delta Electronics, INC."><img src="http://coscup.org/2012/logos/delta.png" width="178" height="72" alt="Delta Electronics, INC."/></a></li>
+<li><a href="http://tw.yahoo.com" target="_blank" title="Yahoo! 奇摩"><img src="http://coscup.org/2012/logos/yahootw.png" width="178" height="72" alt="Yahoo! 奇摩"/></a></li>
+<li><a href="http://www.pixnet.net/" target="_blank" title="PIXNET Digital Media Corporation"><img src="http://coscup.org/2012/logos/pixnet.png" width="178" height="72" alt="PIXNET Digital Media Corporation"/></a></li>
+<li><a href="http://www.canonical.com/" target="_blank" title="Canonical"><img src="http://coscup.org/2012/logos/canonical.png" width="178" height="72" alt="Canonical"/></a></li>
+<li><a href="http://infinitiessoft.com/" target="_blank" title="數位無限軟體"><img src="http://coscup.org/2012/logos/infinities.png" width="178" height="72" alt="數位無限軟體"/></a></li>
+</ul>
+<h2>Silver Level Sponsors</h2>
+<ul class="silver">
+<li><a href="http://www.moko365.com" target="_blank" title="Moko365 Inc. "><img src="http://coscup.org/2012/logos/moko365.png" width="178" height="72" alt="Moko365 Inc. "/></a></li>
+<li><a href="http://verywed.com" target="_blank" title="veryWed.com"><img src="http://coscup.org/2012/logos/verywed.png" width="178" height="72" alt="veryWed.com"/></a></li>
+<li><a href="http://www.godgame.com.tw" target="_blank" title="GodGame Inc."><img src="http://coscup.org/2012/logos/godgame.png" width="178" height="72" alt="GodGame Inc."/></a></li>
+<li><a href="http://www.archilife.org" target="_blank" title="Archilife Research Foundation"><img src="http://coscup.org/2012/logos/archilife.png" width="178" height="72" alt="Archilife Research Foundation"/></a></li>
+<li><a href="http://www.etusolution.com/" target="_blank" title="Etu "><img src="http://coscup.org/2012/logos/etu.png" width="178" height="72" alt="Etu "/></a></li>
+</ul>
+<h2>Bronze Level Sponsors</h2>
+<ul class="bronze">
+<li><a href="http://action4space.blogspot.tw/" target="_blank" title="act!on studio|space"><img src="http://coscup.org/2012/logos/action4space.png" width="178" height="72" alt="act!on studio|space"/></a></li>
+<li><a href="" target="_blank" title="OSSF"><img src="http://coscup.org/2012/logos/ossf.png" width="178" height="72" alt="OSSF"/></a></li>
+<li><a href="http://www.asus.com" target="_blank" title="Asustek"><img src="http://coscup.org/2012/logos/asus.png" width="178" height="72" alt="Asustek"/></a></li>
+</ul>
+<h2>Media Partners</h2>
+<ul class="media">
+<li><a href="" target="_blank" title="Linux Pilot"><img src="http://coscup.org/2012/logos/linuxpilot.png" width="178" height="72" alt="Linux Pilot"/></a></li>
+</ul>
+  </div>
+  <div class="sponsors-after">
+<h2>Sponsorship Opportunities</h2>
+
+<p>If you are interested in sponsoring COSCUP, please contact <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#115;&#x70;&#111;&#x6e;&#115;&#x6f;&#114;&#x73;&#104;&#x69;&#112;&#x40;&#99;&#x6f;&#115;&#x63;&#117;&#x70;&#46;o&#x72;g">&#115;&#x70;&#111;&#x6e;&#115;&#x6f;&#114;&#x73;&#104;&#x69;&#112;&#x40;&#99;&#x6f;&#115;&#x63;&#117;&#x70;&#46;o&#x72;g</a>.</p>
+  </div>
+</div>
+<div id="footer">
+  <div class="info">
+    <p id="copyright">&copy; 2012 COSCUP<span class="separator"> | </span><a href="http://coscup.org/2012/en/contact/">Contact us</a></p>
+    <p id="tagline">We <span class="heart">(heart)</span> Open.</p>
+    <p id="archives">
+      <a href="http://coscup.org/2006/">2006</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2007/">2007</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2008/">2008</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2009/">2009</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2010/">2010</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2011/">2011</a>
+    </p>
+  </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="/2012-theme/assets/script.min.js"></script>
+</body>
+</html>

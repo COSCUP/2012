@@ -1,0 +1,664 @@
+
+<!DOCTYPE html>
+<html manifest="/2012/site.appcache" lang="zh-TW">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>議程摘要 | COSCUP 2012</title>
+    <link rel="stylesheet" type="text/css" href="/2012-theme/assets/mobile.css" media="handheld, screen and (max-width: 480px)" />
+    <link rel="stylesheet" type="text/css" href="/2012-theme/assets/style.css" media="print, screen and (min-width: 481px)" />
+  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/2012-theme/assets/style.css" media="print, screen"/><![endif]-->
+    <link rel="shortcut icon" href="/2012-theme/assets/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <meta property="og:image" content="http://coscup.org/2012-theme/assets/coscup.png" />
+  <!-- Remove for now, see https://github.com/COSCUP/coscup2012-theme/issues/7
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  -->
+  <link rel="apple-touch-icon" href="/2012-theme/assets/coscup-icon-iphone.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/2012-theme/assets/coscup-icon-ipad.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/2012-theme/assets/coscup-icon-iphone4.png" />
+  <link rel="apple-touch-startup-image" href="/2012-theme/assets/coscup-startup.png" />
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12923351-1']);
+    _gaq.push(['_setDomainName', 'coscup.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+<div id="header">
+  <div class="info">
+    <h1><a href="/2012/zh-tw/" title="首頁">COSCUP</a></h1>
+    <p id="title">開源人年會</p>
+    <p id="title_en">Conference for Open Source <span id="coders">Coders</span>, <span id="users">Users</span> and <span id="promoters">Promoters</span></p>
+    <p id="date_place" title="2012 年 8 月 18 – 19 日"><span id="date">8/18 – 19, 2012</span><span id="place">台灣台北</span></p>
+    <div id="nav">
+      <ul>
+        <li><a href="http://registrano.com/events/coscup2012-regist">報名</a></li>
+<li><a href="/2012/zh-tw/about/">活動簡介</a></li>
+<li class="current-ancestor"><a href="/2012/zh-tw/program/">議程</a></li>
+<li><a href="/2012/zh-tw/venue/">地點</a></li>
+<li><a href="http://blog.coscup.org/">部落格</a></li>
+<li><a href="/2012/zh-tw/sponsors/">贊助單位</a></li>
+      </ul>
+    </div>
+    <div id="language">
+      <ul>
+        <li><a href="/2012/en/" title="English" lang="en">English</a></li>
+        <li><a href="/2012/zh-tw/" title="正體中文" lang="zh-TW">正體中文</a></li>
+        <li><a href="/2012/zh-cn/" title="简体中文" lang="zh-CN">简体中文</a></li>
+      </ul>
+    </div>
+    <div id="message">
+      <p>Open Device, Seamless Apps Experience</p>
+    </div>
+    <p id="mascot_icon"></p>
+    <div id="connect_box">
+      <ul>
+        <li><a title="加到 Google 日曆" target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=COSCUP+2012&amp;dates=20120818T010000Z/20120819T100000Z&amp;details=http%3A%2F%2Fcoscup.org/2012/&amp;trp=true&amp;sprop=http%3A%2F%2Fcoscup.org/2012/&amp;sprop=name:COSCUP"><span class="sprite gcal"></span></a></li>
+        <li><a title="訂閱電子報" target="_blank" href="http://coscup.org/2012/zh-tw/contact/#subscribe"><span class="sprite newspaper"></span></a></li>
+        <li><a title="Facebook 粉絲團" href="https://www.facebook.com/coscup" target="_blank"><span class="sprite facebook"></span></a></li>
+        <li><a title="Twitter" href="https://twitter.com/coscup" target="_blank"><span class="sprite twitter"></span></a></li>
+        <li><a title="噗浪" href="http://www.plurk.com/coscup" target="_blank"><span class="sprite plurk"></span></a></li>
+        <li><a title="Flickr" href="http://www.flickr.com/photos/coscup/" target="_blank"><span class="sprite flickr"></span></a></li>
+        <li><a title="YouTube" href="http://www.youtube.com/user/thecoscup" target="_blank"><span class="sprite youtube"></span></a></li>
+        <li><a title="部落格 RSS Feed" href="http://feeds.feedburner.com/coscup" target="_blank"><span class="sprite rss"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="content">
+
+<h2 id="day1">第一天 (8/18)</h2>
+<div class="article" id="Keynote:-Windows-Azure如何擁抱開源社群"><h3>Keynote: Windows Azure如何擁抱開源社群</h3><p class="speaker">上官林傑 (ericsk)</p><div class="abstract"><p>Windows Azure是由微軟所提供的公有雲服務，在Windows Azure平台上不僅支援Website、PaaS及IaaS等服務，同時也支援了許多開發技術及作業系統，得以讓軟體開發人員，或是IT工程人員運用此平台來開發服務或是各種運用。本議題將為聽眾瞭解Windows Azure平台對於開源技術的支持，以及實際部署的示範。</p>
+</div><div class="bio"><p>目前服務於台灣微軟，擔任技術傳教士一職，網路上常用的ID為ericsk，對於各項開發技術如：Web、Mobile、Apps、Cloud等十分有熱情，並且與各開發人員及社群維持良好互動。在加入微軟之前，曾經組織Taipei GTUG社群 (已改名為GDG)，以及在中華電信開發網路服務及軟體。</p>
+</div></div>
+<div class="article" id="JavaScript-全面逆襲！使用-Node.js-打造桌面環境！"><h3>JavaScript 全面逆襲！使用 Node.js 打造桌面環境！</h3><p class="speaker">錢逢祥 (Fred)</p><div class="abstract"><p>JavaScript 儼然就是下一代的主流程式語言，更是一個重新思考作業系統開發的新方向。誰說，開發系統程式是慣 C 的專利？就讓我們嘗試用 JavaScript 來打造自己的桌面環境吧！</p>
+
+<p>Node.js 的出現和 V8 的發展，讓 JavaScript 已經不再是網頁瀏覽器下的玩具，近年來的效能遽烈提升，加上多方高手的投入，除了能勝任伺服器應用，更能開發各式系統程式和桌面應用程式。而對於『慣 C』的開發者來說，其方便的模組擴充機制，也能讓自己的成果輕易地與 JavaScript 結合，讓 JavaScript 無所不能！</p>
+</div><div class="bio"><p>Fred Chien（錢逢祥）已經被淡江大學所拋棄，目前為一家 Startup （Mandice）的 CEO，自今年度(2012)起，決定改變公司方向，開始提供各企業全面性的 JavaScript 解決方案以及專業服務。Fred 自學生時代起，曾為許多國內外企業，提供技術顧問服務或是任職軟體研發工作，專注於行動裝置、嵌入式裝置、伺服器技術、雲端技術以及桌面環境等領域，擁有十多年的開發經驗。雖然 Fred 目前因理想而致力於商業發展，但由於熱愛自由軟體，所以閒暇時仍參與自由軟體開發，並持續研究各類開放原始碼專案，包括 LXDE、Node.js、 Linux 核心、驅動程式或作業系統等相關技術，時而發表公開他的開發經驗在網站上。</p>
+</div></div>
+<div class="article" id="ARMvisor：ARM架構上系統虛擬機的實作"><h3>ARMvisor：ARM架構上系統虛擬機的實作 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=NgpAub45XH4" title="Video 1">Video 1</a></p><p class="speaker">Peter Chang</p><div class="abstract"><p>In recent years, system virtualization has been shifted from data centers to embedded systems. KVM, which is a module of Linux and released by GNU GPLv2, is a powerful virtual machine monitor. However, there is no official version of KVM on ARM architecture. To investigate the challenges of virtualization for embedded systems, we have implemented a hypervisor based on KVM for ARM architecture, called ARMvisor.  So far, we can run an Ubuntu system as host OS with an Ubuntu as the guest OS on TI Beagleboard. We will give a brief introduction, architecture overview of ARMvisor and several interesting demos' video in this talk.</p>
+</div><div class="bio"><p>Peter Chang is a graduate student in System Software Laboratory, Department of Computer Science, National Tsing-Hua University, Taiwan.  Peter Chang has participated in ARMvisor, which is a project of virtual machine monitor based on KVM, which is a module of Linux and released by GNU GPLv2.</p>
+</div></div>
+<div class="article" id="Review-&-walk-through-openSUSE-12.2"><h3>Review &amp; walk through openSUSE 12.2</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=Rgk7Ld8a2Vg" title="Video 1">Video 1</a></p><p class="speaker">Michael Chang</p><div class="abstract"><p>讓我們來一起回顧 openSUSE 12.2 release 這一段時間, 社群曾經發生哪些值得注意的事情, 以及 12.2有哪些特別的改進或新功能, 另外還會附帶說明一些專有名詞 (Tumbleweed, FATE, OBS, YaST, BoosterTeam) 讓大家更能更進一步了解 openSUSE 這個 distribution 不同的地方, 以及它是如何運作並且 "往前進" 的.</p>
+</div><div class="bio"><p>Software engineer at SUSE.</p>
+</div></div>
+<div class="article" id="Workshop:
+LibreOffice-幫幫忙"><h3>Workshop:
+LibreOffice 幫幫忙</h3><p class="speaker">LibreOffice臺灣社群</p><div class="abstract"><p>幫助 LibreOffice 變得符合正體中文使用者的習慣，包括介面與說明翻譯、網站翻譯、教學文件撰寫、臭蟲提交教學與實作、源碼建置教學...等。</p>
+</div></div>
+<div class="article" id="SlateKit---Open-Source-tablet-UX-building-kit"><h3>SlateKit - Open Source tablet UX building kit</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=ADP098v_EUs" title="Video 1">Video 1</a></p><p class="speaker">Ping-Hsun Chen (penk)</p><div class="abstract"><p>中文副標：打造可用的星艦奇航記電腦介面 (LCARS)</p>
+
+<p>平板，阿宅工程師的終極疆界。這裡敘述的是台灣中小企業號的旅程，我們的任務，是為了要繼續探索這全然未知的新裝置，尋找新介面和新應用，勇敢地航向蘋果所未至的領域。</p>
+
+<p>本議題中將發表一個全新的開源專案 SlateKit，是根據過去一年多來接案的成果，從閱讀器、點餐系統到智慧家電；將其中所有手工打造的控制元件獨立而成模組，包括了中文手寫輸入、語音控制，網路掃描和地圖繪製功能等。並將於現場示範如何把一台原裝的 Android 平板改造成星艦電腦。</p>
+</div><div class="bio"><p>網頁與自由軟體開發者，xPUD 專案發起人，以老派搖滾樂、科幻小說與排球為樂。投入開放源碼相關運動，撰寫軟體並翻譯文件書籍，喜愛日暮頌歌合唱團、馮內果以及 Perl 語言。</p>
+</div></div>
+<div class="article" id="PQEMU:-A-Parallel-System-Emulator-Based-on-QEMU"><h3>PQEMU: A Parallel System Emulator Based on QEMU</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=8fablNfKLqU" title="Video 1">Video 1</a></p><p class="speaker">Aquila (丁俊宏)</p><div class="abstract"><p>A full system emulator, such as QEMU, can provide a versatile virtual platform for software development. However, most current system simulators do not have sufficient support for multi-processor emulations to effectively utilize the underlying parallelism presented by today's multi-core processors. In this talk, we focus on parallelizing a system emulator and implement a prototype parallel emulator based on the widely used QEMU. Using this parallel QEMU, emulating an ARM11MPCore platform on a quad-core Intel i7 machine with the SPLASH-2 benchmarks, we have achieved 3.8x speedup over the original QEMU design. We have also evaluated and compared the performance impact of two different parallelization strategies, one with minimum sharing among emulated CPU, and one with maximum sharing.</p>
+</div><div class="bio"><p>清大資工博士候選人
+2012 嵌入式記憶虛擬化技術 - 前往工研院雲端中心進行技術轉移
+2011 開發 PQEMU 多核心模擬器 - 榮獲 IEEE ICPADS 最佳論文獎
+2011 創辦 AppUniverz - 打造校園宿舍成為創業車庫
+2011 創作 LBS 應用 Here+ - 榮獲 MoblieHero App 競賽企業獎
+2010 開發 KVM-ARM (嵌入式系統虛擬化核心) - 榮獲全國教育部嵌入式系統競賽優等
+2008-2011 清華大學-聯發科嵌入式系統技術研究及人才培育計畫
+2007 榮獲清華大學晶片系統商管學程第二屆專題競賽亞軍
+2007 前往北京清華大學與 Open64 Compiler 團隊學術交流三個月
+2006 榮獲清華大學校長獎學金</p>
+</div></div>
+<div class="article" id="openSUSE-KDE-maintenance-model"><h3>openSUSE KDE maintenance model</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=7s4QtQR56Ns" title="Video 1">Video 1</a></p><p class="speaker">Max Lin</p><div class="abstract"><p>I would like to introduce our openSUSE KDE maintenance model, explanation ofcurrent maintenance status; how users to apply the rich KDE repositories whatwe peovides; and what I can help/contribute if I am an user and I want tocontribute.</p>
+</div><div class="bio"><p>Max LIn, openSUSE Boosters, working for openSUSE KDE team.</p>
+</div></div>
+<div class="article" id="Gaia-Virtual-Keyboard-and-Predictive-Text-Feature-for-B2G"><h3>Gaia Virtual Keyboard and Predictive Text Feature for B2G</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=e3I9wiLhQjc" title="Video 1">Video 1</a></p><p class="speaker">Rudy Lu</p><div class="abstract"><p>An introduction to how we build Gaia virtual keyboard and the predictive text feature in Mozilla B2G project. (Work in progress)</p>
+
+<p>Gaia is the HTML5-based UI layer of B2G.
+In this talk, we will show how to leverage HTML, JS ,and other Web storage technologies , like IndexedDB to build a text system with autocomplete, spell correction features that can compete with other mobile OSs like Android and iOS.</p>
+</div><div class="bio"><p>Senior Software Engineer, Mozilla Taiwan
+Now work on Gaia, the UX of B2G project</p>
+</div></div>
+<div class="article" id="How-to-write-a-SNES-emulator-in-Javascript"><h3>How to write a SNES emulator in Javascript</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=nWANGhmqINY" title="Video 1">Video 1</a></p><p class="speaker">魏澤人 (weijr)</p><div class="abstract"><p>利用開源的威力快速的寫一個 javascript 超任模擬器(之前只有紅白機模擬器)。
+工具: 利用 emscripten
+賦予一個死掉的開源模擬器 snem 新生命。
+心得：問題與解法，設計策略，提昇效率。
+未來: Playstation emulator, is it even possible?
+150 字好像太短了吧 XD</p>
+</div><div class="bio"><p>任教於凍華大學應數系
+一些我的開源計畫
+PySX (WIP, a playstation emulator written in python)
+Kindle DX 酷音/Webkit/GTK+/DFB
+linux kernel for Acer Stream
+夢入神蛋象棋
+XA+CV
+ZBochs (PC emulator on Sharp Zaurus PDA)</p>
+</div></div>
+<div class="article" id="Qt5,-Qt-Quick-2-and--Qt-open-governance-develop-model"><h3>Qt5, Qt Quick 2 and  Qt open governance develop model</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=1s3uw9ZfZGc" title="Video 1">Video 1</a></p><p class="speaker">殷允峤</p><div class="abstract"><ol>
+<li>New features in Qt5</li>
+<li>New features in Qt Quick 2</li>
+<li>Some advanced topics inside Qt Quick 2, for examples: scene graph and v8 engine, etc</li>
+<li>Qt open governance develop model</li>
+</ol>
+</div><div class="bio"><p>Senior Software Engineer in Nokia, work for the Qt QML core team in Brisbane Qt R&amp;D centre</p>
+</div></div>
+<div class="article" id="JavaOS-for-tiny-device"><h3>JavaOS for tiny device</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=neOcLyNkHMM" title="Video 1">Video 1</a></p><p class="speaker">王佑中 (wycc)</p><div class="abstract"><p>Arduino 提供了一個很容易程程式的環境，使用一般人都可以使用微處理器發展一個應用。但 Arduino 使用的還是 C++。此外，Arduino 一要使用 USB 連接到電腦來更新程式。針對這二點，WoKong 計畫提供了一個支援無線更新系統的環境，使用者可以透過無線連結來更新 Arduino 上的程式。此外, WuKong 使用 Java 架構一個視覺化程式的環境，讓一般人可以使用類似 puredata 的方法編寫應用。使用 Arduino 比起以前更容易使用。</p>
+</div><div class="bio"><p>從 1992 年開始使用 Linux。早期投身 Linux 中文顯示列印及文書處理系統開發，之後開始做一些和 Linux Kernel 即時作業系統相關的研究。四年前開始研究家庭自動化系統，使用無線將家中設備上網。不過最後變成水電工幫人家裝電燈和窗簾。最近開始現超小型的 Java VM 系統，希望能把 JVM 放到每一個裝置中 。現在也在研究如何不用文字編輯器就可以寫程式，讓會用電腦的人就會寫程式。</p>
+</div></div>
+<div class="article" id="Code:-改變未來的力量"><h3>Code: 改變未來的力量</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=tZ9fY08wfVM" title="Video 1">Video 1</a></p><p class="speaker">Sam Ding (丁俊宏)</p><div class="abstract"><p>《告訴世界我是誰: 倒立先生黃明正的夢想拼圖》一書寫到：「還沒找到自己和夢想前，就努力當下。因為當你找到後，你會盡一切所能去完成你自己，現在努力的事物都會運用上」，迷失在當今琳瑯滿目軟體技術術語的我們，從手機應用學到雲端技術，樣樣學卻樣樣不通．更痛苦的是努力開發的軟體沒人用，更不知道如何改進，難道只能盲目努力嗎？倘若有個社群，在集結喜愛軟體技術的開發者的同時，也號召一群熱愛軟體的使用者，使得新創的軟體有展示與獲得早期使用者回饋的機會，從而藉由開放原始碼的方式來交流，或許正是許多資訊從業人員所盼望的。如今，AppUniverz即是希望從校園開始，一個適合跨領域的團隊合作的平台，讓台灣開發出來的軟體更有價值與影響力。
+如同美國第三任總統 Jefferson 所說："Information is the currency ofdemocracy"，且讓我們以 Learning by Doing 為最高指導原則來發揮，讓創新看得見也碰得到。</p>
+</div></div>
+<div class="article" id="Qt5,-Qt-Quick-2-and--Qt-open-governance-develop-model"><h3>Qt5, Qt Quick 2 and  Qt open governance develop model</h3><p class="speaker">殷允峤</p><div class="abstract"><ol>
+<li>New features in Qt5</li>
+<li>New features in Qt Quick 2</li>
+<li>Some advanced topics inside Qt Quick 2, for examples: scene graph and v8 engine, etc</li>
+<li>Qt open governance develop model</li>
+</ol>
+</div><div class="bio"><p>Senior Software Engineer in Nokia, work for the Qt QML core team in Brisbane Qt R&amp;D centre</p>
+</div></div>
+<div class="article" id="Keynote:-Finding-Our-Way-Together:-How-Global-Open-Source-Communities-Work"><h3>Keynote: Finding Our Way Together: How Global Open Source Communities Work</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=yjfJ2fC1T3s" title="Video 1">Video 1</a></p><p class="speaker">Aaron Seigo,
+Will Stephenson</p><div class="abstract"><p>to share how the free software communities which are often largely based in Europe and North America operate and come together. we have observed in the past that at times the unknowns and cultural differences can make it harder for people to get involved with free software as they would like to. by demonstrating how the communities work now and some of the cultural assumptions that are at the center of open source communities, we may be able to help make open source more approachable and more rewarding for
+those looking at ways to become involved.</p>
+</div><div class="bio"><p>Aaron Seigo is a software developer and entrepeneur who has been invovled with
+Free software by writing software (e.g. KDE Plasma), providing community
+coordination, giving presentations at events and interviews with media around
+the world. He has served as a Board member and President of KDE e.V. Building
+on more than a decade with KDE and twenty years in the industry, Aaron is now
+focused on opening new doors to Free software on mobile devices.</p>
+</div></div>
+<div class="article" id="LTSI-:-Yet-another-long-term-stable-kernel-for-industry-use"><h3>LTSI : Yet another long-term stable kernel for industry use </h3><p class="slide"><a href="http://dl.dropbox.com/u/871361/COSCUP2012/ltsi2012coscup.pdf" title="Slide">Slide</a></p><p class="youtube"><a href="http://www.youtube.com/watch?v=d2B_9oMUx40" title="Video 1">Video 1</a></p><p class="speaker">Hisao Munakata</p><div class="abstract"><p>LTSI is a name of newly launched Linux Foundation(=LF) project that develops and maintains Linux kernel for CE industry.LF/CE working group made the concept of LTSI as a comprehensive solution to reduce each product producer's burden of maintaining Linux kernel privately. Based on the community LTS (long term support) , LTSI will integrate numbers
+of SoC vendor's off-the-tree code and/or new kernel features those became available in recent release. Furthermore LTSI will be maintained to reflect any security/bug fixes applied in LTS update. Anyone who interest LTSI can download specially cooked LTSI kernel from project web page. I am delighted to announce the very 1st LTSI was released in June 2012 and we have started bug collection/fixing management process for this release. Also we have started to collect off-tree patched for next LTSI version, that is kernel 3.4. In this session I will introduce how you can utilize LTSI kernel for your development.</p>
+</div><div class="bio"><p>Munakata is a co-chair of LF/CEWG Architecture group and he had been working for bringing up LTSI project from its vary early stage. He is working for Renesas and he had supported various embedded product producer who want to run Linux on their products. Throughout these experience he envisioned to establish brand new eco-system to leverage opensource power in embedded world. His primarily role in Renesas is to encourage developer to work with the community and upstream code. And he believes LTSI would increase ideal interaction between the business and community field.</p>
+</div></div>
+<div class="article" id="Debian-general-presentation:-a-project,-OS-and-community"><h3>Debian general presentation: a project, OS and community</h3><p class="speaker">Thomas Goirand</p><div class="abstract"><p>This talk will cover all the general aspects of Debian. It has originally been made by the former Debian Project Leader (DPL) Steve McIntyre, and then enhanced by the current DPL Zack. The presentation will cover what Debian is, its structure, the processes and decision making, derivatives, and how to get involved.</p>
+</div><div class="bio"><p>Since 2003, Thomas GOIRAND has successfully developed a hosting business based on XEN: GPLHost.com. Serving from 10 locations on 4 continents, GPLHost benefits from the flexibility of XEN. Thomas Goirand, is not only the CEO of GPLHost, but also the chief architect of the GPLHost hosting software, which is the leading turnkey solution for web hosts, released fully in open source. Thomas is also a productive Debian Developer who maintains lots of server hosting related packages.</p>
+</div></div>
+<div class="article" id="Developing-Mobile-Applications-With-Plasma-Active"><h3>Developing Mobile Applications With Plasma Active</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=HuKWKBN1OBU" title="Video 1">Video 1</a></p><p class="speaker">Aaron Seigo</p><div class="abstract"><p>Free software communities have waited for great open devices powered by Free
+software which allow anyone to participate. This presentation examines various
+efforts that are making this happen through direct, bottom-up action. The Make
+Play Live tablets and Add-ons Store will serve two practical examples.</p>
+</div><div class="bio"><p>Aaron Seigo is a software developer and entrepeneur who has been invovled with
+Free software by writing software (e.g. KDE Plasma), providing community
+coordination, giving presentations at events and interviews with media around
+the world. He has served as a Board member and President of KDE e.V. Building
+on more than a decade with KDE and twenty years in the industry, Aaron is now
+focused on opening new doors to Free software on mobile devices.</p>
+</div></div>
+<div class="article" id="Linaro:-the-new-way-to-install-Debian-on-various-ARM-devices"><h3>Linaro: the new way to install Debian on various ARM devices</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=nwPSSxB8oe4" title="Video 1">Video 1</a></p><p class="speaker">Ying-Chun Liu (Paulliu)</p><div class="abstract"><p>Introduction on how to use Linaro tools to create hwpacks for ARM SoC. And introduction on how to customization the rootfs.</p>
+</div><div class="bio"><ul>
+<li>Debian developer</li>
+<li>Canonical Software Engineer</li>
+<li>Linaro Engineer</li>
+</ul>
+</div></div>
+<div class="article" id="基於開源碼所開發的雲端管理平台"><h3>基於開源碼所開發的雲端管理平台</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=E_-8lGBi8-k" title="Video 1">Video 1</a></p><p class="speaker">Wenyu Chen</p><div class="abstract"><p>現今已經有越來越多有關IaaS的雲端平台，本議題主要在於介紹我們如何利用開放原始碼的各項技術與架構，開發出一套給企業使用的混合雲IaaS雲端平台，以及正在開發的公有混合雲IaaS雲端服務。並在本議題中說明，我們如何利用開放原始碼技術來規劃我們下一代的雲端管理平台，可以在混合雲的環境下管理IaaS與PaaS。</p>
+</div></div>
+<div class="article" id="Redefining-"Groupware"-With-Server-Side-Akonadi"><h3>Redefining &quot;Groupware&quot; With Server-Side Akonadi</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=6dLb_MBOVqw" title="Video 1">Video 1</a></p><p class="speaker">Paul Adams</p><div class="abstract"><p>In the past two years Kolab Groupware has been through a rebirth with
+a strong focus on making the software scalable and robust. As part of
+the Kolab 3 series Akonadi will be integrated in order to open up
+modern data types to groupware. Developed for KDE 4, Akonadi is a
+storage service for PIM data and metadata. Historically "PIM" data
+meant email, contacts, events and tasks. Today, however, PIM is much
+more: Facebook, G+, Twitter, Jabber, SIP...</p>
+
+<p>In this talk I will provide an overview of Kolab and the status of
+Kolab 3.0 development. I will also describe the opportunities created
+by serverside Akonadi and describe the reasoning the behind the
+integration of the technology with Kolab Groupware. I will conclude
+with an overview of where Kolab will head throughout the Kolab 3
+cycle.</p>
+</div><div class="bio"><p>Trained as a software engineer and specialising in process management, Dr. Paul J. Adams is the Chief Operating Officer for Kolab Systems AG. He has worked in both academia and industry as a researcher and senior manager, covering a variety of Free Software-related topics. Paul was awarded Chartered IT Professional status, in 2008 and is a full professional member of the British Computer Society (for whom he is co-founder and former chairman of the Open Source Specialist Group), IEEE as well as of KDE e.V. and the Fellowship of the FSFE.</p>
+</div></div>
+<div class="article" id="Workshop:
+侏儒作業系統研習營"><h3>Workshop:
+侏儒作業系統研習營</h3><p class="speaker">JuluOSDev(星系統社群)</p><div class="abstract"><p>在一年一度開源人盛事，為破除作業系統開發極困難的迷思，
+關注ＯＳ開發議題的開源社群發起此活動。</p>
+
+<p>本質上，作業系統本身只是一個與硬體緊密配合的程式，
+為硬體及使用者應用程式間的橋樑。</p>
+
+<p>此次邀請到資深社員，以系統開發實戰心得，
+緊湊五小節系統開發議題，
+逐步瞭解系統內運作，並一同揭開系統開發的奧秘。</p>
+</div></div>
+<div class="article" id="Translate-bytecode-of-CPython-to-Mozilla-SpiderMonkey"><h3>Translate bytecode of CPython to Mozilla SpiderMonkey </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=SqEpwNhymuQ" title="Video 1">Video 1</a></p><p class="speaker">Thinker</p><div class="abstract"><p>Python 是一個優雅的動態語言，而 Javascript 是目前執行最快的動態語言。Python 一直為人所詬病的，就是其 Interpreter 的執行效能。如果能讓 Python 搭上 Javascript 的便車，利用 Javascript VM 在技術上的快速演進，無異是如虎添翼。本議題將討論 bytecode 轉換和相關的問題。</p>
+</div><div class="bio"><p>行走紅塵的修行者</p>
+</div></div>
+<div class="article" id="開源程式語言授權之旅：Perl/Python/-PHP/Ruby/-Scala/Node.js-的智財權挑戰"><h3>開源程式語言授權之旅：Perl/Python/ PHP/Ruby/ Scala/Node.js 的智財權挑戰 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=Iz1hJK6Cz3Q" title="Video 1">Video 1</a></p><p class="speaker">ant</p><div class="abstract"><p>有時候程式設計師擔心的不是技術本質的問題，而是智慧財產權所築起的技術屏障。本議程從智財權的角度，探討開源程式語言在開發時所面臨的潛在侵權挑戰，並且從常見的智財權議題中，分析各個開源程式語言的因應之道。</p>
+
+<p>領銜主演：Perl/Python/PHP/Ruby/Scala/Node.js
+友情客串：OpenSSL/MySQL/MongoDB/Neo4j</p>
+</div><div class="bio"><p>網路暱稱 ant。目前專注於「合法的安全程式設計」。閒暇時投入自由/開放源碼軟體的開發與研究，每有會意，便欣然忘食。對於「經濟學」、「混沌複雜科學」亦有喜好。平時愛胡思亂想、天馬行空，但總努力將夢想轉化為現實。</p>
+
+<p><a href="http://about.me/yftzeng">http://about.me/yftzeng</a></p>
+</div></div>
+<div class="article" id="Lightweight-KDE"><h3>Lightweight KDE</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=6lfAjdtwECc" title="Video 1">Video 1</a></p><p class="speaker">Will Stephenson</p><div class="abstract"><p>openSUSE user feedback reveals permanent demand for a lighter packaging of theKDE workspace.Users want a fully featured, consistent desktop environment, but with thefreedom to easily and completely replace large components such as the PersonalInformation Management stack and browser with their preferred alternatives.Power terminal users desire a minimal desktop that still provides powerfulwindow management and app launcher capabilities, without the overhead of KDE'sadvanced semantic features.  Fixed function office workers may need only abrowser to access corporate applications.  Administrators and distributionmaintainers wish to fulfil all these needs using one set of packages.KLyDE is a project to customise KDE for these requirements while retaining thefamiliar character of the workspace, while the default full feature set fromupstream is still optionally installable.  KLyDE enables a radically stripped-down and customisable KDE that is competitive with well-known 'light-weight'desktop environments.  KLyDE also serves as a KDE 4 proving ground for themodularisation underway for the upcoming KDE Frameworks 5. I will presentexample configurations of KLYDE, packaging and configuration techniques usedat openSUSE to achieve this, and the footprint measurement techniques used.ENDS</p>
+</div><div class="bio"><p>Will Stephenson is the lead maintainer of KDE at openSUSE.  He is a member ofthe openSUSE Board, and part of the openSUSE Boosters team.  His personal KDEinterests include PIM and Instant Messaging, NetworkManager support,photography and drawing applications.  Will lives in Germany but is fromNorthumberland, England.  Outside KDE, Will enjoys time with his growingfamily, cycling, cooking, and taking pictures.</p>
+</div></div>
+<div class="article" id="Python-Type-based-Class-v.s.-Javascript-Prototype"><h3>Python Type-based Class v.s. Javascript Prototype</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=FdDf4DrCmjQ" title="Video 1">Video 1</a></p><p class="speaker">Hsin-Yi Chen</p><div class="abstract"><p>A attendees in PyCon Taiwan 2012 ask me a interesting question 'python meta class is very similar to JavaScript prototype, what is difference?' in the QA time when  I was presenting "What can meta class do for you?" I did not answer very precise. </p>
+
+<p>I keep thinking and have some thought  after the event closed. so that I want to share what I learned . This topic is aim to answer why Python object model seems very similar to JavaScript.</p>
+
+<p>Outline:</p>
+
+<ul>
+<li>object, prototype in JavaScript</li>
+<li>type, class, object in Python</li>
+<li>class in JavaScript?</li>
+<li>class is actually an object</li>
+<li>same and difference</li>
+</ul>
+</div><div class="bio"><p>I am a...</p>
+
+<ul>
+<li>Debian Maintainer</li>
+<li>Software Engineer in Canonical Ltd.</li>
+<li>Speaker in OSDC.tw 2011</li>
+<li>Speaker in PyCon JP 2011</li>
+<li>Speaker in PYCon Taiwan 2012</li>
+<li>Financial Lead in COSCUP/Gnome.Asia 2010</li>
+<li>Financial Lead in PyCon Taiwan 2012 </li>
+<li>看電腦比看活人還久的生物.....</li>
+</ul>
+
+<p><a href="http://about.me/hychen">http://about.me/hychen</a></p>
+</div></div>
+<div class="article" id="Linux,-Patents-and-Open-Invention-Network:-Protecting-Freedom-Through-Collaboration-and-Partnership"><h3>Linux, Patents and Open Invention Network: Protecting Freedom Through Collaboration and Partnership </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=5e-0DmuLnoM" title="Video 1">Video 1</a></p><p class="speaker">Shane Coughlan</p><div class="abstract"><p>Open Source gives everyone the freedom to collaborate, and that allows great things to happen. This talks explores collaboration in the context of software patents, and will help provide a strategic overview for developers, project managers and business people. It describes the OIN community of "patent non-aggression" for the Linux System, and shows how this community can help everyone depending on open innovation. It also discusses how non-aggression agreements now cover more Open Source than ever before, especially in important areas like embedded and mobile, and what that means for projects and companies.</p>
+</div><div class="bio"><p>Shane Coughlan is an expert in communication methods and business development. He is best known for building bridges between commercial and non-commercial stakeholders in the technology sector. His professional accomplishments include establishing a legal department for the main NGO promoting Free Software in Europe, building a professional network of over 270 legal counsel and technical experts across 4 continents, and aligning corporate and community interests to launch the first law review dedicated to Free/Open Source Software. He is Regional Director Asia for OIN.</p>
+</div></div>
+<div class="article" id="Develop-and-Maintain-a-Distro-with-Open-Build-Service"><h3>Develop and Maintain a Distro with Open Build Service</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=dCXd-dD96zs" title="Video 1">Video 1</a></p><p class="speaker">Gary Lin</p><div class="abstract"><p>Open Build Service (OBS) is a system developed by SUSE to build the
+binary packages from sources for different distributions and various
+architectures and publish them to the target users. Besides package
+building, it also provides features for the package maintainers to
+easily collaborate with each other. This talk will give the audience
+the overview of OBS and and a real life example: how the openSUSE
+team develops and maintains its linux distribution with OBS.</p>
+</div><div class="bio"><p>Gary Lin is a software engineer of SUSE since 2009. He has been a
+linux user for years and now focused on the maintenance of openSUSE
+gnome.</p>
+</div></div>
+<div class="article" id="How-to-write-a-bash-script-like-python?"><h3>How to write a bash script like python?</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=2NlfQjmvXII" title="Video 1">Video 1</a></p><p class="speaker">黃宇新 (lloyd huang)</p><div class="abstract"><p>如何撰寫 bash script 讓它擁有 python 語法上的特性。</p>
+
+<p>增加一個習慣讓 bash script 如同 python 一樣，本身既是單一程式也是其它人的模組 module，方便其它人再引用 reuse 以及方便作單元測試 unit testing。</p>
+
+<p>借由一個 import.sh 的實作，讓 bash script 擁有 python 以下幾個重要的語法特性</p>
+
+<ul>
+<li>import (import module)</li>
+<li>from (import function from module)</li>
+<li>del (del module)</li>
+<li>help (docstring)</li>
+</ul>
+</div><div class="bio"><p>黃宇新 ( lloyd huang ) 1998 年進入 Coventive ，目前在 IA 部門從事 embedded Linux 的工作，是個好吃鬼，喜愛義式咖啡，最大的榮耀是曾經擁有一台無敵的TP240，以及一群 KaLUG 的好朋友。</p>
+</div></div>
+<div class="article" id="從商標認識自由開源軟體"><h3>從商標認識自由開源軟體 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=b-4sigZ3ks0" title="Video 1">Video 1</a></p><p class="speaker">葛冬梅</p><div class="abstract"><p>相對於著作權與專利權，商標權在自由開源軟體領域中是較少被討論的議題，但是隨著自由開源軟體的品質受到肯定，如何利用商標來維護軟體聲譽、甚至進一步獲得商標權收益等等議題，近年來已成為自由開源軟體領域中討論的焦點之一。因此，本場次將會介紹商標的概念、在自由開源軟體中的應用現況與問題，以及建議的面對態度。</p>
+</div><div class="bio"><p>葛冬梅 (Florence Ko) ，網路暱稱 "Florence"
+或"tmk2005"。專職研究自由開源軟體授權條款，專長在於條款相容性分析、條款衝突的解決方案提供、程式碼釋出方案規劃等。目前任職於中研院自由軟體鑄造場，負責法政研究的工作，同時亦為自由軟體鑄造場電子報「法律專欄」的編輯。進一步個人資訊：<a href="http://tw.linkedin.com/in/florencetmko">http://tw.linkedin.com/in/florencetmko</a>。</p>
+</div></div>
+<div class="article" id="urfkill-daemon-introduction"><h3>urfkill daemon introduction</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=YWMQMlQI7FM" title="Video 1">Video 1</a></p><p class="speaker">Joey Lee</p><div class="abstract"><p>Urfkill have the following features:
+ - Broadcast rfkill state changed event to DBus for registered userland applications.
+ - Provide DBus interface for userland applications to block/unblock rfkill.
+ - Use PolicyKit for system-wide privileges.
+ - Send RFKILL<em>IOCTL</em>NOINPUT by ioctl to disable rfkill-input function</p>
+</div><div class="bio"><p>I am Joey Lee, a engineer in SUSE Lab.
+I am working on ACPI/WMI and also tracing pci-core, net-core, ATA stuff.</p>
+</div></div>
+<h2 id="day2">第二天 (8/19)</h2>
+<div class="article" id="Keynote:-Open-Up-the-Cloud"><h3>Keynote: Open Up the Cloud</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=VF2-s5wgsS0" title="Video 1">Video 1</a></p><p class="speaker">Ted Chang</p><div class="bio"><p>Dr. Ted Chang is Vice President and Chief Technology Officer (CTO) of Quanta Computer Inc.
+He oversees corporate technology strategy, advanced product development and global partnership. 
+Along with his role as CTO, he also serves as the head of Quanta Research Institute (QRI) for advanced
+research, innovation and new business incubation.</p>
+
+<p>Starting in 2004, Dr. Chang has served as the program director of the T-Party Project,  a 10-year research project for future computing and communication between Quanta 
+and MIT’s Computer Science and Artificial Lab (CSAIL).</p>
+
+<p>Dr. Chang is a board director of Quanta Research Cambridge, Inc. and Digimax, Inc., the best 3D animation film winner of both the 2008 Tokyo Anime and the 2010 LA Movie Festival. He
+is also a visiting scientist at MIT CSAIL.</p>
+
+<p>Dr. Chang had been the executive assistant to the CEO and Chairman of Quanta on his strategic planning effort for ten years. During the same period of time, he also led the planning office and the corporate IP team, as well as incubated several new business units, new spin-offs and research labs in Quanta.</p>
+
+<p>Over the past ten years, Dr. Chang and the QRI team have received recognition globally, including the best technology management award from CSMOT in 2006, a regional winner
+award from European Satellite Navigation Competition in 2008 and the best innovation enterprise award from MOEA in both 2003 and 2010, among others. Dr. Chang's past projects, One Laptop Per Child (OLPC) and the QRI research model, were published as business cases by Harvard Business School.</p>
+</div></div>
+<div class="article" id="超多核心架構及應用開發實例"><h3>超多核心架構及應用開發實例</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=kv6AyVkmQZU" title="Video 1">Video 1</a></p><p class="speaker">宋振華</p><div class="abstract"><p>CMOS製程已經接近半導體的微電子學的物理極限，但是Programmer對效能的渴望是無窮盡的，多核心技術因此應運而生。除了四核、六核、八核等主流產品外，廣達投資的Tilera推出Tile系列CPU一舉將核心數目推升至64核，並計畫在不久的將來推出100核以上的產品。這個主題將介紹TilePro64平台及運用超多核心架構開發軟體的實例。</p>
+</div><div class="bio"><p>在Apple II盛行的時候，迷上了PC/XT；在Microsoft橫掃天下的時候，愛上了Sun；在Linux一統江湖的時代，喜歡小魔鬼的可愛；在iPhone顛倒眾生的現在，選擇機器人。從18歲第一次用『寫程式』打工賺錢起到現在，總是不停的在『主流』與『有趣』間徘徊。</p>
+</div></div>
+<div class="article" id="MCLinker-–-an-LLVM-Linker-for-Mobile-Computing"><h3>MCLinker – an LLVM Linker for Mobile Computing</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=nCAlAoXKWVk" title="Video 1">Video 1</a></p><p class="speaker">陳柏聿</p><div class="abstract"><p>MCLinker 是為嵌入式系統所設計的 System Linker，體積小、速度快、只需少量的記憶體就可以執行。MCLinker 同時支援 ARM、X86 和 MIPS 三種嵌入式 Linux (e.g. Android) 平台，BSD 平台將是下一階段支援的重點。 
+MCLinker Project 是由台灣產業界主動發起的開源計畫，迄今已超過一年。本次我們將分享MCLinker 開發歷程、甘苦談以及 linker 相關技術。
+造訪 MCLinker 網站了解詳細介紹及取得原始碼 <a href="http://code.google.com/p/mclinker/">http://code.google.com/p/mclinker/</a></p>
+</div><div class="bio"><p>聯發科技工程師</p>
+</div></div>
+<div class="article" id="Tool-Objects-in-jQuery"><h3>Tool Objects in jQuery</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=gA_ScYs_oTk" title="Video 1">Video 1</a></p><p class="speaker">高偉格 (othree)</p><div class="abstract"><p>jQuery 內有許多工具物件，可以幫助你更隨心所欲的控制程式的流程，包括用來控制所有動畫效果的 jQuery.queue、用來控制各種非同步的程序的 Deferred 物件，還有用來管理 callback functions 的 Callbacks ，不過這些工具物件有些沒有官方文件，有些則沒有很好的範例說明其特性，此議題將對這些工具物件逐一的，從緣由到應用。</p>
+</div><div class="bio"><p>高偉格 (othree) 對於網路標準及各種相關技術都有高度興趣，並在部落格介紹各種新技術，在 github 上維護少量 Vim Plugin，近期關注主題為 Functional JavaScript，為 Moztw 社群成員，現職為 HTC 前端工程師。</p>
+</div></div>
+<div class="article" id="Workshop:
+如何使用EZo-Engine快速打造Web應用，結合Google-App-Engine建立雲端服務"><h3>Workshop:
+如何使用EZo Engine快速打造Web應用，結合Google App Engine建立雲端服務</h3><p class="speaker">EZoEngine</p><div class="abstract"><p>介紹OpenSource EZoEngine，EZoEngine採用GWT技術打造，直接運行在瀏覽器中，
+可將描述畫面的xml語法轉成實際可使用的Web畫面，並可透過AJAX以REST方式調用後端程式，
+最後將整個應用佈署到Google App Engine。
+活動中將透過實際案例，說明如何使用EzoEngine快速打造Web應用的目的</p>
+</div></div>
+<div class="article" id="Build-your-PHP-application-on-Heroku"><h3>Build your PHP application on Heroku</h3><p class="slide"><a href="http://www.slideshare.net/ronnywang_tw/2012-coscup-build-your-php-application-on-heroku" title="Slide">Slide</a></p><p class="youtube"><a href="http://www.youtube.com/watch?v=b5h9NX9DIwQ" title="Video 1">Video 1</a></p><p class="speaker">ronnywang</p></div>
+<div class="article" id="Emacs---程式開發神兵利器"><h3>Emacs - 程式開發神兵利器</h3><p class="speaker">陳侃如 (Kanru)</p><div class="abstract"><p>Emacs 身為古老的黑客文化產物之一，從使用難懂的巨集語言發展到使用 elisp, 具有強大擴充能力的黑客編輯器，見證了自由軟體的發展，至今仍是許多人愛用的編輯器，究竟有什麼魅力可以如此讓人沈迷？</p>
+
+<ul>
+<li>Emacs brief history</li>
+<li>Emacs programming modes go through</li>
+<li>Elisp programming how to</li>
+<li>How to contribute &amp; join the Emacs community</li>
+</ul>
+</div><div class="bio"><p>Free software fanboy, regular contributes to various projects since my first awareness of GNU/Linux at year 2000. My interest covers everything that is accessible from my laptop.</p>
+
+<p>Now I'm in Mozilla and working on the exciting B2G project to explore the possibility of web as a platform.</p>
+</div></div>
+<div class="article" id="Twitter-Bootstrap"><h3>Twitter Bootstrap</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=BZ2PMr0n-dM" title="Video 1">Video 1</a></p><p class="speaker">Even</p><div class="abstract"><p>從使用 bootstrap 的理由，到整體概觀了解 bootstrap 對於網頁開發者的好處。網站開發者與網頁設計師該如何使用 bootstrap 合作，快速完成創業專案。以及如何利用 bootstrap 做出當下流行的 responsive design 與各種進階高級排版技巧。</p>
+</div><div class="bio"><p>Even 是專業的網頁設計師，同時也是 RGBA.tw 活動創始人之一，擁有超過十年的網站設計研發和資訊架構設計諮詢顧問服務經驗，曾擔任多個大型網站設計專案的首席設計顧問與架構師。在網頁設計業界宣導初學者應使用現代工具、提高設計品質、並致力於設計師程式化能力。曾協助上百位平面網頁設計師從 Dreamweaver 或 GUI 工具轉換為手寫 HTML/CSS/JS 開發方式。</p>
+</div></div>
+<div class="article" id="When-Big-Data-Meet-Python"><h3>When Big Data Meet Python</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=CW91J4alArM" title="Video 1">Video 1</a></p><p class="speaker">Jimmy Lai</p><div class="abstract"><p>Big Data分析是新興的商業應用趨勢，其目標是從大量的資料中快速獲得有價值的資訊，其面臨的挑戰主要在於大量與多樣化資料的蒐集、儲存、智慧型分析。本演講將介紹如何以Python程式語言搭配開放原始碼工具及新興技術來解決Big Data分析面臨的問題，包含NoSQL database, Storage, MapReduce, Information Retrieval, Natural Language Processing, Machine Learning, Visualization. 演講除介紹概念外，並以程式碼實例示範Big Data分析。</p>
+</div><div class="bio"><p>Jimmy Lai 是自然語言處理與機器學習領域的 Python 愛好者。他的專長是使用機器學習演算法結合雲端運算技術對大量資料進行分析，建構網路應用服務。他在學生時期曾組隊參加 2009年由趨勢科技舉辦的騰雲駕霧程式設計競賽以及 Yahoo! 舉辦的 Open Hack Day 獲得冠軍。
+Jimmy Lai 目前任職於引京聚點知識結構搜索公司 (Oxygen Intelligence) 從事自然語言處理應用服務的開發。</p>
+</div></div>
+<div class="article" id="Better-node.js-software-release-practice-using-open-source-tool"><h3>Better node.js software release practice using open source tool</h3><p class="speaker">thegiive</p><div class="abstract"><p>Software release to production is such a hard practice, especially considering the business impact and the quality of software. I will demonstrate how to use open source tools to enhance a node.js web software release process and ensure the better release quality. </p>
+
+<p>The open source tools I will mention will includes Jenkins, Git,  Ubuntu dpkg system, node.js language,  ruby , rake, jshint , nodeunit,  expresso , YETI, Selenium, and mongodb.  </p>
+</div><div class="bio"><p>I am a open source program lover, especially in Ruby language, Rails framework, and VIM editor. </p>
+
+<p>I am software release manager of Yahoo! TW Shopping team and have manage over 50 times release in Yahoo!. I currently study on software continuous integration and software continuous delivery. </p>
+</div></div>
+<div class="article" id="javascriptMVC---another-full-solution-javascript-MVC-framework"><h3>javascriptMVC - another full solution javascript MVC framework</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=Q5czZT5eXoM" title="Video 1">Video 1</a></p><p class="speaker">Alive</p><div class="abstract"><p>When you want to build a complex web application, backboneJS is mentioned in most times. But there is still another framework growing, supporting more features, it is javascriptMVC. 
+* What is javascriptMVC and why you need it in your web
+* The jmvc solutions to your all ever troubles: css rule collision, cross-widget communication pubsub, plugin performance problem, html template engine, js library dependency, project folder management
+* How to build your big web application with javascriptMVC -- The things doc never told you.
+* The future -- CanJS/jQuery++
+* Q&amp;A</p>
+</div><div class="bio"><p>I am a front-end engineer, working at Mozilla Taiwan now. Following is my work exprience.
+VIVOTEK INC.,Taipei,Taiwan (January 2010 ~ May 2012)
+Software Engineer
+*Design NVR Web GUI and implement
+*Cowork with human interface engineer to produce web prototype
+*Backend service programming
+*Cross browser issues solving
+*Create own UI component for web application to reuse
+Mozilla Corp.,Taipei,Taiwan (June 2012 ~ present)
+Front-end Engineer
+*Design and implement 'Web homescreens', 'cloud desktops': the core interface of devices
+*Design and implement the next generation of web applications built on new device APIs
+*Design and implement core services, like software keyboards, in HTML5
+*Help iterate on the design of new device APIs
+*Work with partners to customize user experiences
+*Analyze and optimize the performance of HTML5 applications</p>
+</div></div>
+<div class="article" id="大強子網格運算與OSS-----告訴你機關雲怎麼做計算"><h3>大強子網格運算與OSS  -- 告訴你機關雲怎麼做計算</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=7fykQmZuock" title="Video 1">Video 1</a></p><p class="speaker">YChao (趙元)</p><div class="abstract"><p>繼WWW發光發熱之後，歐洲粒子物理中心(CERN)在計算機發展的另一個里程碑：全球LHC網格運算(World LHC Computing Grid, WLCG)計畫。將以使用者的角度，介紹網格運算的架構，以及目前營運概況。同時，也說明OSS在其中的相關應用與發展。</p>
+</div><div class="bio"><p>台大物理所助理研究學者，為高能組與中研院網格中心(ASGC)之聯絡人。早期曾參與協助ASGC二級中心(Tier-2)物理計算驗證與除錯，目前主要負責台大Tier-3的架設與營運。</p>
+</div></div>
+<div class="article" id="結合-Jenkins-+-Testopia-讓你的自動化測試和報告更Easy"><h3>結合 Jenkins + Testopia 讓你的自動化測試和報告更Easy</h3><p class="speaker">Linda Hsin (辛瑞玲) &amp; Alex.YT Chen (陳億宗)</p><div class="abstract"><p>Jenkins, 是現今 Continuous Integration (CI) Open Source 裡最 Popular的一個工具,  從 Auto-Build, Auto-Deploy 到 Auto-Trigger-Test 我們皆可以在其中完成。
+但是鮮少人知道 Jenkins 跟Testopia 結合後, 可以讓我們把 CI 的精神 跟 test case management 巧妙的結合, 進而解省大量的測試Project Lead的時間.
+在這個議程中希望可以介紹這些用到的技術，提供大家這一個解決方案之概觀，來取代昂貴且封閉的商業解決方案，除此之外還有遇到的困難以及解決方法等等經驗的分享</p>
+</div><div class="bio"><p>目前從事 HTC 雲端運算基礎架構之自動化測試以及工具的開發，主要包含 CI integration, 自動化 BVT/FVT 測試, Performance 測試, 以及 UI Automation方面的測試 。
+長期想辦法如何用自由軟體來進行各種的測試。未來目標希望持續加強如何利用各種open source的工具來滿足雲端的各種測試需求</p>
+</div></div>
+<div class="article" id="MySQL-System-Stability"><h3>MySQL System Stability</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=AkNwNkVemNw" title="Video 1">Video 1</a></p><p class="speaker">Gea-Suan Lin (gslin)</p><div class="abstract"><p>MySQL 是全世界市占率最高的 open source 關聯式資料庫伺服器，是許多網路服務的基礎建設。這場演講將會說明在不同的條件下，要如何建制不同性質的 MySQL 系統。</p>
+</div></div>
+<div class="article" id="第一次自幹作業系統核心就上手"><h3>第一次自幹作業系統核心就上手 </h3><p class="slide"><a href="http://0xlab.org/~jserv/tmp/DevYourOS-COSCUP-2012.pdf" title="Slide">Slide</a></p><p class="youtube"><a href="http://www.youtube.com/watch?v=m6R1mFpifa4" title="Video 1">Video 1</a></p><p class="speaker">Jserv</p><div class="abstract"><p>在台灣，一直存有系統程式開發的需求，如工業自動控制與家電產品，但多數的系統程式開發者均忙於使系統
+更洗練，鮮少公開探討背後的設計原理，又在媒體過度渲染特定商業系統的影響力之下，頗多人對開發系統程式
+存有疑慮，認為一輩子沒有機會從事此領域的開發，從而產生許多誤解。王佑中博士嘗言：「寫一個 OS 是多麼
+美好的事，在有限的生命中千萬不要遺漏了它」，本議程就是追隨前輩的步伐，在短短的議程中，運用開放原始碼
+豐富的開發工具資源，自幹出一個作業系統核心與必要的系統元件。</p>
+</div><div class="bio"><p>Jim Huang (黃敬群)，慣用網路暱稱為 "jserv"，熱血工讀生。自 1999 年開始參與開放原始碼 / 自由軟體開發，
+曾投入 Kaffe / GCJ (GCC for Java), 新酷音輸入法, LXDE, Linaro, Android Open Source Project, Codezero 等
+專案的發展工作。基於對電腦技術與自由軟體的熱愛，於 2009 年共同創立 0xlab，期許能透過開放發展模式，
+拉近台灣硬體廠商與開放原始碼系統的距離，而又執著於自幹作業系統，於 2011 年起活躍於 JuluOSDev 系統
+開發者社群。2012 年春季，嘗試搬去台灣南部生活後，邀約同好在古色古香的府城，成立關注開放規格 /
+開放原始碼 /  開放硬體的社群活動 MOSUT (Meeting of Open Source Users in Tainan)。</p>
+
+<p>web: <a href="http://about.me/jserv">http://about.me/jserv</a>
+blog: <a href="http://blog.linux.org.tw/jserv/">http://blog.linux.org.tw/jserv/</a>
+0xlab: <a href="http://0xlab.org/">http://0xlab.org/</a>
+JuluOSDev: <a href="http://www.juluos.org/">http://www.juluos.org/</a>
+MOSUT: <a href="http://mosut.org/">http://mosut.org/</a></p>
+</div></div>
+<div class="article" id="2012-Hadoop-Summit-Sharing"><h3>2012 Hadoop Summit Sharing</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=DNQaudJt-Ak" title="Video 1">Video 1</a></p><p class="speaker">Yi-Kai Tsai</p><div class="abstract"><p>Apache Hadoop project started humbly from 2005 and was expanded
+quickly by Yahoo! and many other communities. Now it has grown up as a
+important technology to the cloud industry and enterprise. This
+session will take more on what's the next of Hadoop , including new
+innovation &amp; features in MapReduce/YARN and  HDFS/Federation. And will
+also share more from Hadoop summit 2012.</p>
+</div></div>
+<div class="article" id="用-LibFM-+-GTK+-開發你自己的-Linux-桌面檔案管理程式"><h3>用 LibFM + GTK+ 開發你自己的 Linux 桌面檔案管理程式</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=6oCvLCmWVkk" title="Video 1">Video 1</a></p><p class="speaker">PCMan</p><div class="abstract"><p>從LXDE/PCManFM/LibFM 開發經驗六年回顧，
+看Linux桌面檔案管理程式開發的議題，
+及如何在其他程式中，利用 Libfm 專案的成果，
+快速加入檔案檢視、操作、管理的功能。</p>
+
+<p>大概的大綱：
+1. 歷史回顧，專案起源，發展過程，目標 (快速帶過)
+2. 開發檔案管理程式，會遇到的問題
+3. GLib/GIO 檔案管理相關功能簡述，及其不足之處 -> 為何需要 libfm
+4. 輔助開發 file manager 的 library - Libfm API 功能介紹
+5. 實際 demo 使用 libfm 元件，建構檔案管理程式
+6. pcmanfm/libfm 未來展望</p>
+</div></div>
+<div class="article" id="Content-Centric-Embedded-~Treasure-Hunting-Robot~"><h3>Content-Centric Embedded ~Treasure Hunting Robot~</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=xHrMfxj0vt4" title="Video 1">Video 1</a></p><p class="speaker">Imamura Noritsuna</p><div class="abstract"><p>A product world is trying to change focusing on "Content-Centric". Then, it is necessary to design our products by "Content-Centric". For that purpose, it is necessary to perform a trial production and a products design quickly flexibly. 
+Therefore we created one robot based on the soul of "DIwO(Do It with Others)" used as basic concepts, such as Make:, in order to realize it.
+It is created by combining various products used as SoC which Pandaboard.
+--Brain wave sensor
+--2-leg Robot
+--see-through display
+--Xtion
+--Android</p>
+
+<p>This is an "AR(augmented reality)-Treasure Hunting Game“
+You get virtual treasures by controlling real robot!</p>
+
+<p>Such a reason, it is possible to make trial production and commercial production quickly.</p>
+</div><div class="bio"><p>Now:
+I'm a board member as OESF(<a href="http://www.oesf.biz">http://www.oesf.biz</a>). And I'm coordinating an OESF's Open Lab(Taiwan&amp;Japan) &amp; future system WG(<a href="http://fswg.oesf.biz/">http://fswg.oesf.biz/</a>).
+I'm a starting member of the biggest Android community in Japan(<a href="http://android-group.jp">http://android-group.jp</a>).
+I'm a making an Android for community for embedded(for OEM/ODM venders) in Taiwan with ITRI(<a href="http://itri.org.tw/">http://itri.org.tw/</a>) &amp; Linaro(<a href="http://www.linaro.org">http://www.linaro.org</a>).</p>
+
+<p>Old:
+I was concerned with development a largest VoIP(SIP-IPv6 base) system in the world.
+I was concerned as architect and designing HOTARU's softwares with HOTARU project.
+HOTARU project is a subproject of WIDE which is the IPv6 greatest project and developing NGN/IMS's open source soft wares.
+HOTARU project: <a href="http://www.luciola.net/">http://www.luciola.net/</a>
+WIDE project: <a href="http://www.wide.ad.jp/index.html">http://www.wide.ad.jp/index.html</a></p>
+</div></div>
+<div class="article" id="人人能編程是可能的嗎？---視覺化編程-Blockly-與周蟒"><h3>人人能編程是可能的嗎？-- 視覺化編程 Blockly 與周蟒</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=HEW39KXn0a4" title="Video 1">Video 1</a></p><p class="speaker">林育民(gasolin)</p><div class="abstract"><p>從「紐約市長說要學編程」來看，學編程這件事已經泡沫化了？
+那麼，「人人能編程」這件事是可能的嗎？</p>
+
+<p>為了讓電腦照我們的意志工作，從打孔機到Javascript到Siri，似乎確實有「越來越多人能編程」這樣的趨勢。我們來看看程式語言/開發工具如何從編譯式/直譯式編程演進，不斷地降低編程的入門門檻。並以Blockly和周蟒積木版為例，介紹偏門的中文編程、視覺化編程
+<a href="http://goo.gl/XkMIB">http://goo.gl/XkMIB</a></p>
+</div><div class="bio"><p>台北GTUG活動組織者、Android書籍作者、「咬一口Python程式語言」譯者、周蟒中文程式語言作者。</p>
+</div></div>
+<div class="article" id="LiveScript---duty-free-javaScript-/免稅-JavaScript"><h3>LiveScript - duty-free javaScript /免稅 JavaScript</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=l0ibyDmTtw0" title="Video 1">Video 1</a></p><p class="speaker">clkao</p><div class="abstract"><p>2012 年 2 月，JavaScript 的航道上出現了一個免稅天堂 - LiveScript，讓開發者們逃離邪惡的政府稅收....</p>
+
+<p>LiveScript 是超簡潔的 JavaScript 方言，汲取了許多 functional programming 的特色，能讓你寫出更短又更易讀的程式。</p>
+
+<p>本場次將會介紹 LiveScript 的一些重要功能，從 JavaScript 和 CoffeeScript
+轉移過來的注意事項，以及探討一個抓取中央氣象局資訊並提供 API 的範例。</p>
+</div><div class="bio"><p>clkao - 喜歡 Perl, 不喜歡 JavaScript, 喜歡 LiveScript.</p>
+</div></div>
+<div class="article" id="From-Open-Source-to-Open-Data－從OpenStreetMap的授權轉換看公開資料授權"><h3>From Open Source to Open Data－從OpenStreetMap的授權轉換看公開資料授權 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=eXeK4bSCr_8" title="Video 1">Video 1</a></p><p class="speaker">林誠夏</p><div class="abstract"><p>當代、除了自由開源軟體的成功之外，透過開放授權來集結眾人力量的方式，也漸漸擴散影響到超越程式碼的其他領域，諸如、推動著作素材授權的Creative Commons，以及提升資訊透明化與加值性的Open Data。本場次將透過Open Source的原理原則來介紹Open Data，並舉OpenStreetMap推動的授權轉換為例，讓聽眾能更了解Open Data的授權方式，以為未來與程式碼合併運用方面打下基礎。</p>
+</div><div class="bio"><p>知識背景為科技法律，但是也喜歡學習任何新奇有趣的事物。自2005年開始任職於中央研究院自由軟體鑄造場，專職於自由軟體授權條款的解說分析，以及自由軟體商業運用模式的觀察記錄。2008年開始擔任自由軟體鑄造場的專案經理，2010年兼任電子報主編，目前已卸下這二份職務，改戮力於個人的書籍寫作並轉任計畫維運發展的諮詢顧問。</p>
+</div></div>
+<div class="article" id="浴火重生的自由之翼：歡迎光臨Apache-OpenOffice-3.4"><h3>浴火重生的自由之翼：歡迎光臨Apache OpenOffice 3.4</h3><p class="slide"><a href="http://www.slideshare.net/imacat/welcome-to-apache-openoffice-34-coscup-2012" title="Slide">Slide</a></p><p class="youtube"><a href="http://www.youtube.com/watch?v=nQfLfHVq50c" title="Video 1">Video 1</a></p><p class="speaker">依瑪貓／楊士青</p><div class="abstract"><p>期待了整整一年，Apache OpenOffice 3.4終於誕生了！這是OpenOffice由Oracle捐給Apache基金會後，台灣社群開始直接參與正體中文開發和翻譯工作後，新生的第一個版本，也是OpenOffice.org 1.0發表後，整整十年的十年慶。新版有哪些期待的功能？OpenOffice未來又要往什麼方向走？對使用者有什麼影響？對開發者又有什麼影響？Apache OpenOffice開發團隊的成員，將上台一一為您解說OpenOffice的過去、現在與未來。</p>
+</div><div class="bio"><p>Apache OpenOffice開發團隊Project Management Committee (2011/6–)、OpenOffice Wiki/論壇root (2012/5-)、EducOOo/OOo4Kids開發團隊 (2010/12–)、OOo補給站現任站長 (2010/1–)、師大資訊教育所碩士研究生 (2010/9–)、WoFOSS好自由小組 (2010/9–)。曾任：OpenOffice.org正體中文翻譯主持人 (2011/4)、Oracle/Sun兼職講師 (2010/5–2011/4)、OpenOffice.org應用開發工程師 (2009/1–2009/12)。</p>
+</div></div>
+<div class="article" id="Owncloud"><h3>Owncloud</h3><p class="speaker">Will Stephenson</p><div class="bio"><p>Will Stephenson is the lead maintainer of KDE at openSUSE.  He is a member ofthe openSUSE Board, and part of the openSUSE Boosters team.  His personal KDEinterests include PIM and Instant Messaging, NetworkManager support,photography and drawing applications.  Will lives in Germany but is fromNorthumberland, England.  Outside KDE, Will enjoys time with his growingfamily, cycling, cooking, and taking pictures.</p>
+</div></div>
+<div class="article" id="Defensive-Publications---Ensuring-"Freedom-Of-Use"-In-The-Open-Source-Community"><h3>Defensive Publications - Ensuring &quot;Freedom Of Use&quot; In The Open Source Community</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=jpt5oCkfef4" title="Video 1">Video 1</a></p><p class="speaker">Armijn Hemel</p><div class="abstract"><p>Defensive Publications are documents that provide descriptions and artwork of a product, device or method, that enter the public domain and become prior art. This is a powerful way to prevent others from getting a patent on a product, device or method. Defensive publications ensure that the original developers or inventors keep access to their own invention without having to file for an expensive patent. Defensive publications prevent that others make patent claims on the invention later on. Defensive Publications are endorsed by the US Patent and Trademark Office (USPTO) as an IP rights management tool.</p>
+
+<p>The Defensive Publications program is part of Linux Defenders and supported by the Open Invention Network (OIN). Using a simple Web-based forms developers and other non-attorneys can quickly submit defensive publications to Linux Defenders. After submission the defensive publication will be reviewed and edited as needed by OIN personnel at no charge. The defensive publication will then be added to the IP.com prior art database. This database is used by Examiners at the USPTO to search for prior art when examining patent applications. Examples of Defensive Publications can be found here: <a href="http://www.defensivepublications.org/defensive-pubs-examples">http://www.defensivepublications.org/defensive-pubs-examples</a></p>
+
+<p>To prevent future patent wars involving Open Source code we need your help to create defensive publications. At this conference OIN will have sessions where you can bring your ideas. We will sit down with you, explain how to write a defensive publication for your idea and help you write and submit defensive publications.</p>
+
+<p>For more information on the Defensive Publication program, please go to: <a href="http://www.defensivepublications.org/">http://www.defensivepublications.org/</a></p>
+</div><div class="bio"><p>Armijn Hemel is the European coordinator of the Linux Defenders program.</p>
+</div></div>
+<div class="article" id="邁向-LibreOffice-之路"><h3>邁向 LibreOffice 之路</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=4ajpUhvHDGo" title="Video 1">Video 1</a></p><p class="speaker">Cheng-Chia Tseng (zerng07)</p><div class="abstract"><p>現在距第一個 LibreOffice 版本也已經有一年半之久；不久前Apache 基金會門下的 Apache OpenOffice 也正式發行第一個版本。共享血源的子嗣們，今後都將步上自己的進化之路。
+本次講演內容將接續去年的介紹，帶領大家跟著 LibreOffice 的步伐，初步瞭解 LibreOffice 專案與社群在全球方面與臺灣方面的一些細節，還有我所理解中 LibreOffice 與 Apache OpenOffice 不同之處的簡短說明。
+希望能讓想進一步瞭解自由辦公軟體套件的朋友、關心自由軟體社群議題，或是本地化議題的朋友們，都能從本講演中得到收穫。</p>
+</div><div class="bio"><p>一位自由軟體本地化的關心者，意外接下 LibreOffice 正體中文翻譯後，因緣際會成了長期的 LibreOffice 貢獻者。</p>
+
+<p>由於喜歡 LibreOffice，因此認養 zh-tw.libreoffice.org 網站的維護、協助編輯 the document foundation wiki 的正體中文頁面、在 Facebook 上開立 LibreOffice 正體中文執導組織社團、粉絲專頁，以及 LibreOffice 正體中文使用者社團、建立 LibreOffice 正體中文文件計畫、管理OOo補給站上的 LibreOffice 板...等，懷著熱誠做過、完成過好多自己從沒想過的事情。</p>
+
+<p>希望能讓 LibreOffice 在臺灣更普及、更本地化，讓任何人都可以享受 LibreOffice 所帶來的自由。</p>
+</div></div>
+<div class="article" id="讓我們用最潮的-JavaScript-盡情開發-KDE/Qt-應用程式"><h3>讓我們用最潮的 JavaScript 盡情開發 KDE/Qt 應用程式</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=hHJSB5aUb8Y" title="Video 1">Video 1</a></p><p class="speaker">錢逢祥 (Fred)</p><div class="abstract"><p>過往在一般人的認知當中，開發桌面應用程式不外乎使用 C/C++，尤其在 KDE/Qt 的世界中更是如此。但面對今天日日求新的世界，使用 C/C++ 這類中低階的語言開發應用程式，總有個要命的問題 - 『開發效率太差』，不足因應這個時代對應用的大量需求。因此使用有高生產力的腳本(Script) 語言來開發應用程式，已經慢慢變成一個全世界都在追逐的話題，而在這網路的時代，當仁不讓的就是 JavaScript。</p>
+
+<p>雖然，自 Qt 4.7 開始，提供了 QML 和 JavaScript 的整合，更讓開發者，可以使用極為普遍的 JavaScript 語言開發各式 Qt 應用程式。可是，由於投入的開發者不夠多，相關的 Ecosystem 和資源也不完整和不充足，所以對於一般的 JavaScript 開發者來說，入門門檻仍然相當高。基於前述種種缺點，近來愈來愈潮又同為 JavaScript 解決方案的 Node.js，反而是開發應用程式更好的選擇。在我們為其加上 Qt 的支援後，就可以不費吹灰之力用最潮的 Node.js 寫出原生的 Qt 程式。</p>
+</div><div class="bio"><p>Fred Chien（錢逢祥）目前為一家 Startup （Mandice）的 CEO，自今年度(2012)起，決定改變公司營運方向，開始提供各企業全面性的 JavaScript 解決方案以及專業服務。Fred 也仍是淡江大學四年級學生，自學生時代起，就曾為許多國內外企業，提供技術顧問服務或是任職軟體研發工作，專注於行動裝置、嵌入式裝置、伺服器技術、雲端技術以及桌面環境等領域，擁有十多年的開發經驗。雖然 Fred 目前因理想而致力於商業發展，但由於熱愛自由軟體，所以閒暇時仍參與自由軟體開發，並持續研究各類開放原始碼專案，包括 LXDE、Node.js、 Linux 核心、驅動程式或作業系統等相關技術，時而發表公開他的開發經驗在網站上。</p>
+</div></div>
+<div class="article" id="Workshop:
+介紹-Fire.app-與-HTML-prototyping"><h3>Workshop:
+介紹 Fire.app 與 HTML prototyping
+</h3><p class="speaker">HappyDesigner MeetupHandlino Inc.</p><div class="abstract"><p>Fire.app is a menubar only app for dead easy HTML prototyping. It supports Sass/Compass, Haml, ERB, Markdown, CoffeeScript, and more. Fire.app is made by Handlino Inc. and released under GPL license.</p>
+
+<p>We will have a free workshop in COSCUP 2012 this August. The workshop will cover:</p>
+
+<p>Fire.app basics
+fast HTML prototyping with demos
+deploy your prototype to Heroku
+Fire.app hacks
+Fire.app 是一個協助你快速製作 HTML 雛形設計的工具列軟體。它支援 Sass/Compass, Haml, ERB, Markdown, CoffeeScript 等等語言。Fire.app 由和多 Handlino 製作，並且採用 GPL 授權釋出。</p>
+
+<p>工作坊的內容包含：</p>
+
+<p>Fire.app 基礎使用
+快速製作 HTML 雛形設計的教學範例
+把你的 HTML 雛形設計佈署到 Heroku 上
+其他密技</p>
+</div></div>
+<div class="article" id="HTML5-Rocks-on-Windows-8"><h3>HTML5 Rocks on Windows 8</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=LIwQtqHFSlk" title="Video 1">Video 1</a></p><p class="speaker">上官林傑 (ericsk)</p><div class="abstract"><p>Windows 8 推出全新的 Metro Style App 平台，讓開發人員得以使用許多程式語言來打造這個平台上的 apps，並且透過 Windows Store 來散佈。HTML5 技術也是 Metro Style App 的主要開發技術之一，本議程將讓聽眾瞭解，如何以 HTML5 技術打造 Windows 8 上的 Metro Style App 以及適用觸控環境的網頁。</p>
+</div><div class="bio"><p>目前服務於台灣微軟，擔任技術傳教士一職，網路上常用的ID為ericsk，對於各項開發技術如：Web、Mobile、Apps、Cloud等十分有熱情，並且與各開發人員及社群維持良好互動。在加入微軟之前，曾經組織Taipei GTUG社群 (已改名為GDG)，以及在中華電信開發網路服務及軟體。</p>
+</div></div>
+<div class="article" id="迎接-retina-大航海時代來臨，來談一下-SVG"><h3>迎接 retina 大航海時代來臨，來談一下 SVG</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=V31dd8mPXDc" title="Video 1">Video 1</a></p><p class="speaker">鄭鴻旗 (honki)</p><div class="abstract"><p>自己從事使用 SVG 作為介面設計多年，這一路小旅程遇到不少的怪事，跌跌撞撞，當然也見識到向量格式的美麗，猶如巧遇漂浮於天際彩虹的驚喜。今年 APPLE 推出的筆電搭載了Retina 螢幕，這螢幕相當令人驚豔，而這項規格的發布很有可能在未來，讓其他廠商跟進，影響了數位產品的視覺呈現與網頁設計。而面對這一重大的數位影像品質的轉變，SVG 極有可能是解決的方式之一。</p>
+</div><div class="bio"><p>台灣藝術大學美術系碩士班科技藝術組 </p>
+
+<p>演講:
+2011 floss+art 的一些事 於朝陽科技大學
+2011 用程式語言玩出有趣事 – 以 floss＋art 來說 於嶺東科技大學
+2011 inkscape 中的印刷問題 於 Icos 開放源碼國際研討會
+2011 有趣的公共藝術以及 FLOSS 對於互動創作的影響 於東華大學</p>
+</div></div>
+<div class="article" id="Getting-Involved-in-KDE-Development"><h3>Getting Involved in KDE Development</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=nvZN2QQJW5E" title="Video 1">Video 1</a></p><p class="speaker">Acelan Kao (高嘉璘)</p><div class="abstract"><p>There are many ways you can get involved with KDE, such as
+ development, translation, art, documentation, testing, or bug triaging.
+ I'll try to introduce how to register a KDE developer account,
+ setup the development environment, update KDE SC source code,
+ compile/debug the latest KDE SC, submit the patch.
+ Also, will introduce how to become a KDE developer
+ and create your project on KDE repository.</p>
+</div><div class="bio"><p>Senior engineer in Canonical.  KDE developer.  Former coordinator of KDE zh_TW i18n team.</p>
+</div></div>
+<div class="article" id="Etu-DataFlow:-An-efficient-data-streaming-&-pre-processing-framework-designed-for-Hadoop"><h3>Etu DataFlow: An efficient data streaming &amp; pre-processing framework designed for Hadoop</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=6YPpoL_nR6w" title="Video 1">Video 1</a></p><p class="speaker">Johnny Nien</p><div class="abstract"><p>Many people are using Hadoop for processing data. However, how to put Big Data into HDFS and how to pre-process unstructured/semi-structured data efficiently are often challenging problems. A new data streaming I/O framework is introduced: Etu DataFlow(EDF). It is designed to easily trasfer large amounts of data with user customizable data-processing functionalities. Unlike existing data streaming frameworks i.e. Flume, EDF doesn't utilize complex data-flow topologies; instead, it's based on single-step data transfer focused on high performance, specially on Hadoop DFS. EDF achieves scalability and central-manageability using Apache ZooKeeper. It also provides extremely user-friendly APIs and graphical interface. EDF was developed to fulfill diverse requirements we faced while dealing with real use cases for our clients and its currently being integrated into Etu Appliance. For this session I'd like to introduce its architecture, and current features' design.</p>
+</div><div class="bio"><p>Johnny Nien is a senior software developer specialized in Java. He currently works for Etu, SYSTEX Corp., as a developer of an appliance for processing and analyzing Big Data based on Hadoop. Prior to Etu, he worked at Trend Micro where he gained experience in developing a PaaS, and was also responsible for developing Hadoop/HBase based Big Data solutions. Johnny Nien is a Cloudera Certified Developer for Apache Hadoop (CCDH) who is passionate and highly interested in cloud computing related topics.</p>
+</div></div>
+<div class="article" id="在RepRap架構下開發擴充-傾斜式生成平台"><h3>在RepRap架構下開發擴充-傾斜式生成平台 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=yyMhjim9RjY" title="Video 1">Video 1</a></p><p class="speaker">Kamm (闞凱宇)</p><div class="abstract"><p>本研究企圖以一個創作者的角度，透過當今的科技技術，並遵循傳統工藝的思維，將電腦輔助設計/製造視為創作者個人手腦的延伸，著重於開發製作實體介面的DIY 3D Printer套件，使個人創作者能自行開發創作工具，以此探討數位設計環境在廣闊的自由度下，進入實體製造介面仍能使創作者保有自行開發的可能性。
+本研究針對數位製造技術中的加法製造(Additive Manufacturing)，透過分析目前open source的硬體及軟體，比較其優缺點及可行性，並利用開源硬體的易擴充性，設計開發專屬的傾斜式生成平台，以補足利用FDM(Fuse Deposition Modeling)技術的3D Printer的RP成品在外觀上的工業特徵過於僵化的缺點，使成品的外觀能順應視覺美感。整個設計開發的製作流程也同時符合個人在數位設計/製造環境的DFM(design for manufacturing)方法，透過設計評價(Design metrics)檢視適當的結構設計資訊，在設計時整合生產知識，選擇適當的材料，流程和組件，並評估替代設計方案，在此標準流程下以簡單的操作便能設計製造出一台open source的3D Printer。</p>
+</div><div class="bio"><p>2004-2008 台北科技大學 工業設計系 家具與室內設計組
+2008-2010 亞卡默設計 設計師
+2010-2012 交通大學 建築研究所 數位組
+學習開發CAD/CAM在建築上的整合應用</p>
+</div></div>
+<div class="article" id="New-Issues-of-Japanese-and-Other-East-Asian-Languages-in-KDE-and-Qt"><h3>New Issues of Japanese and Other East Asian Languages in KDE and Qt</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=qv4SiMSK5SY" title="Video 1">Video 1</a></p><p class="speaker">Daisuke Kameda &amp; Jumpei Okawa</p><div class="abstract"><p>Thanks to Unicode, troubles derives from character code don't occur
+so frequently on KDE/Qt today. However, there are still some problems
+in character input and display. In addition, new devices such as tablet PCs
+and smartphones brought new demands, such as vertical-writing for digital
+books, and new ideas such as Flick Input Method for easier character input.</p>
+</div><div class="bio"><p>Daisuke Kameda: the president of Japan KDE User Group.  Developers of immodule of Qt Project, Leader developer of Common Desktop Infrastructure.
+Jumpei Okawa: The member of Japan KDE User Group.</p>
+</div></div>
+<div class="article" id="一朵雲該怎麼長"><h3>一朵雲該怎麼長</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=dweJFWBUXls" title="Video 1">Video 1</a></p><p class="speaker">黃文銘 (Panda Wen-Ming Huang)</p><div class="abstract"><ol>
+<li>雲要活在實體機上</li>
+<li>自己寫還是使用某某stack</li>
+<li>儲存設備很貴的</li>
+<li>網路架構該怎麼規劃</li>
+<li>台達目前做了那些事</li>
+</ol>
+</div><div class="bio"><p>台達電子雲端事業處\工程師\屏東科技大學資管系\碩士
+其實我只有”碩士”這個學位和資訊有關，其它都和吃有關。吃？是的，屏農食品再到屏科食品系，不過高中時從8位元的小教授什麼都玩什麼都不精，退伍後甚至我還做了四年多的業務，最後因為拿到碩士才變”RD”的，很離奇吧！因緣際會進了台達雲端中心在翟博士的部門參與雲端計劃，希望能在這次的會議中分享一些心得。</p>
+</div></div>
+<div class="article" id="(新)酷音輸入法-12-年發展回顧"><h3>(新)酷音輸入法 12 年發展回顧 </h3><p class="youtube"><a href="http://www.youtube.com/watch?v=kh0LKHjmvNg" title="Video 1">Video 1</a></p><p class="speaker">Jserv</p><div class="abstract"><p>最早的「酷音輸入法」是龔律全與陳康本兩人在台大就學時期的資訊專題，首個公開釋出的版本在 2000年，該專案一度因為原開發者不再投入而隱匿。而在 2004 年，適逢整個 X Window System為主的桌面環境，面臨輸入法架構的大更改，在若干新開發者的投入下，「酷音輸入法」進一步重組，成為新酷音輸入法，並廣泛地支援多種作業系統桌面環境。距離首個公開版本已12 年後的今日，講者以該專案維護人的經驗，預期探討中文資訊化之中輸入法架構與開放原始碼環境的互動，一方面論及歷史背景，另一方面也適度探討技術變遷，此外，也會發布新酷音輸入法之下的各式子項目，諸如雲端詞庫、互動斷詞系統、針對手機環境的手寫注音輸入環境，以及相關的改善計畫。</p>
+</div><div class="bio"><p>Jim Huang (黃敬群)，慣用網路暱稱為 "jserv"，熱血工讀生。自 1999 年開始參與開放原始碼 / 自由軟體開發，
+曾投入 Kaffe / GCJ (GCC for Java), 新酷音輸入法, LXDE, Linaro, Android Open Source Project, Codezero 等
+專案的發展工作。基於對電腦技術與自由軟體的熱愛，於 2009 年共同創立 0xlab，期許能透過開放發展模式，
+拉近台灣硬體廠商與開放原始碼系統的距離，而又執著於自幹作業系統，於 2011 年起活躍於 JuluOSDev 系統
+開發者社群。2012 年春季，嘗試搬去台灣南部生活後，邀約同好在古色古香的府城，成立關注開放規格 /
+開放原始碼 /  開放硬體的社群活動 MOSUT (Meeting of Open Source Users in Tainan)。</p>
+
+<p>web: <a href="http://about.me/jserv">http://about.me/jserv</a>
+blog: <a href="http://blog.linux.org.tw/jserv/">http://blog.linux.org.tw/jserv/</a>
+0xlab: <a href="http://0xlab.org/">http://0xlab.org/</a>
+JuluOSDev: <a href="http://www.juluos.org/">http://www.juluos.org/</a>
+MOSUT: <a href="http://mosut.org/">http://mosut.org/</a></p>
+</div></div>
+<div class="article" id="Let-KDE-Set-You-Free"><h3>Let KDE Set You Free</h3><p class="youtube"><a href="http://www.youtube.com/watch?v=nhergxHoVYY" title="Video 1">Video 1</a></p><p class="speaker">Alvin Su (蘇仕文)</p><div class="abstract"><p>以深美國小建置資訊環境為例，談建置環境遇到的各種問題，解決方法與提示</p>
+</div><div class="bio"><p>深美國小資訊組長</p>
+</div></div>
+</div>
+<div id="sidebar">
+  <div class="sponsors">
+<h2>鑽石級贊助</h2>
+<ul class="diamond">
+<li><a href="http://quanta-research.net/event/COSCUP2012/" target="_blank" title="廣達研究院"><img src="http://coscup.org/2012/logos/quanta.png" width="178" height="72" alt="廣達研究院"/></a></li>
+<li><a href="http://www.microsoft.com/" target="_blank" title="台灣微軟"><img src="http://coscup.org/2012/logos/microsoft.png" width="178" height="72" alt="台灣微軟"/></a></li>
+</ul>
+<h2>黃金級贊助</h2>
+<ul class="gold">
+<li><a href="http://www.appuniverz.org" target="_blank" title="AppUniverz"><img src="http://coscup.org/2012/logos/appuniverz.png" width="178" height="72" alt="AppUniverz"/></a></li>
+<li><a href="http://www.kkbox.com" target="_blank" title="KKBOX"><img src="http://coscup.org/2012/logos/kkbox.png" width="178" height="72" alt="KKBOX"/></a></li>
+<li><a href="http://www.delta.com.tw/" target="_blank" title="台達電子工業股份有限公司"><img src="http://coscup.org/2012/logos/delta.png" width="178" height="72" alt="台達電子工業股份有限公司"/></a></li>
+<li><a href="http://tw.yahoo.com" target="_blank" title="Yahoo! 奇摩"><img src="http://coscup.org/2012/logos/yahootw.png" width="178" height="72" alt="Yahoo! 奇摩"/></a></li>
+<li><a href="http://www.pixnet.net/" target="_blank" title="Pixnet 痞客邦"><img src="http://coscup.org/2012/logos/pixnet.png" width="178" height="72" alt="Pixnet 痞客邦"/></a></li>
+<li><a href="http://www.canonical.com/" target="_blank" title="Canonical"><img src="http://coscup.org/2012/logos/canonical.png" width="178" height="72" alt="Canonical"/></a></li>
+<li><a href="http://infinitiessoft.com/" target="_blank" title="數位無限軟體"><img src="http://coscup.org/2012/logos/infinities.png" width="178" height="72" alt="數位無限軟體"/></a></li>
+</ul>
+<h2>白銀級贊助</h2>
+<ul class="silver">
+<li><a href="http://www.moko365.com" target="_blank" title="仕橙3G教室       "><img src="http://coscup.org/2012/logos/moko365.png" width="178" height="72" alt="仕橙3G教室       "/></a></li>
+<li><a href="http://verywed.com" target="_blank" title="非常婚禮"><img src="http://coscup.org/2012/logos/verywed.png" width="178" height="72" alt="非常婚禮"/></a></li>
+<li><a href="http://www.godgame.com.tw" target="_blank" title="慧邦科技       "><img src="http://coscup.org/2012/logos/godgame.png" width="178" height="72" alt="慧邦科技       "/></a></li>
+<li><a href="http://www.archilife.org" target="_blank" title="祐生研究基金會"><img src="http://coscup.org/2012/logos/archilife.png" width="178" height="72" alt="祐生研究基金會"/></a></li>
+<li><a href="http://www.etusolution.com/" target="_blank" title="知意圖"><img src="http://coscup.org/2012/logos/etu.png" width="178" height="72" alt="知意圖"/></a></li>
+</ul>
+<h2>青銅級贊助</h2>
+<ul class="bronze">
+<li><a href="http://action4space.blogspot.tw/" target="_blank" title="有為工作室"><img src="http://coscup.org/2012/logos/action4space.png" width="178" height="72" alt="有為工作室"/></a></li>
+<li><a href="" target="_blank" title="OSSF"><img src="http://coscup.org/2012/logos/ossf.png" width="178" height="72" alt="OSSF"/></a></li>
+<li><a href="http://www.asus.com" target="_blank" title="華碩電腦"><img src="http://coscup.org/2012/logos/asus.png" width="178" height="72" alt="華碩電腦"/></a></li>
+</ul>
+<h2>媒體夥伴</h2>
+<ul class="media">
+<li><a href="" target="_blank" title="Linux Pilot"><img src="http://coscup.org/2012/logos/linuxpilot.png" width="178" height="72" alt="Linux Pilot"/></a></li>
+</ul>
+  </div>
+  <div class="sponsors-after">
+<h2>贊助 COSCUP</h2>
+
+<p>如果您欲贊助 COSCUP，請與 <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#115;&#x70;&#111;&#x6e;&#115;&#x6f;&#114;&#x73;&#104;&#x69;&#112;&#x40;&#99;&#x6f;&#115;&#x63;&#117;&#x70;&#46;o&#x72;g">&#115;&#x70;&#111;&#x6e;&#115;&#x6f;&#114;&#x73;&#104;&#x69;&#112;&#x40;&#99;&#x6f;&#115;&#x63;&#117;&#x70;&#46;o&#x72;g</a> 聯絡。</p>
+  </div>
+</div>
+<div id="footer">
+  <div class="info">
+    <p id="copyright">&copy; 2012 COSCUP<span class="separator"> | </span><a href="http://coscup.org/2012/zh-tw/contact/">聯絡我們</a></p>
+    <p id="tagline">We <span class="heart">(heart)</span> Open.</p>
+    <p id="archives">
+      <a href="http://coscup.org/2006/">2006</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2007/">2007</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2008/">2008</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2009/">2009</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2010/">2010</a>
+      <span class="separator"> | </span><a href="http://coscup.org/2011/">2011</a>
+    </p>
+  </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="/2012-theme/assets/script.min.js"></script>
+</body>
+</html>

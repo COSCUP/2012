@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>COSCUP 2012</title>
+</head>
+<body>
+<script type="text/javascript">
+
+'use strict';
+
+var path = '2012';
+
+switch (location.pathname) {
+  case '/':
+  case '/' + path:
+    window.location.replace('/' + path + '/');
+    break;
+
+  case '/' + path + '/':
+    var lang = navigator.language.toLowerCase();
+    if (!lang)
+      lang = 'en';
+
+    switch (lang) {
+      case 'zh-tw':
+      case 'zh':
+        window.location.replace('./zh-tw/');
+        break;
+      case 'zh-cn':
+        window.location.replace('./zh-cn/');
+        break;
+      case 'en':
+      default:
+        window.location.replace('./en/');
+        break;
+    }
+    break;
+
+  default:
+    // Do not insert location.pathname here to prevent XSS
+    document.title = 'Not Available Offline';
+    document.body.innerHTML = '<h1>Not Available Offline</h1>'
+      + '<p>The requested URL is not available offline.</p>'
+      + '<p>Alternatively, the requested URL was not found on this server, '
+      + 'therefore the browser show this page instead.</p>';
+    break;
+}
+
+</script>
+</body>
+</html>

@@ -78,19 +78,22 @@
 </div>
 <div id="content">
 <h2>API 文件</h2>
-
+<!--
 <p>COSCUP 2012 網站提供下列<strong>唯讀</strong> JSON-P API 供第三方程式取用。因為具有 JSON-P 的能力，您可以用在 client 端網路應用程式；在引用時加上 <code>callback</code> 參數即可。若目標瀏覽器支援跨來源資源共享 (Cross-Origin Resource Sharing)，您也可以不使用 <code>callback</code> 參數；各 URL 皆會輸出 <code>Access-Control-Allow-Origin: *</code> HTTP 標頭。</p>
+-->
+<p>COSCUP 2012 網站自 2018/08/20 起移至 GitHub Pages 管理，故不再提供 JSON-P API 供第三方程式取用。僅提供靜態 JSON 檔案；各 URL 皆會輸出 <code>Access-Control-Allow-Origin: *</code> HTTP 標頭。</p>
+<p>舊的 API 文件頁面可以在 <a href="//github.com/COSCUP/2012/blob/master/zh-tw/api/index.html">這裡</a> 找到</p>
 
 <p>有任何關於 API 的建議與問題請洽 <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#116;&#x69;&#109;&#100;&#x72;e&#97;&#x6d;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#116;&#x69;&#109;&#100;&#x72;e&#97;&#x6d;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a> 。</p>
 
 <h3>導覽選單 (<code>menu</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/menu/</code>。<a href="//json-indent.appspot.com/indent?url=/2012/api/menu/">縮排顯示</a>。</li>
+<li>URL: <code>https://coscup.org/2012/api/menu.json</code>&nbsp;<a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/menu.json">縮排顯示</a>。</li>
 </ul>
 
-<p>提供三種語言的網站導覽選單 HTML，設計給 <code>coscup.org</code> 的子網站使用。超連結（<code>href</code>）沒有 hostname，只有絕對路徑。取用這些頁面的網站通常是 <code>coscup.org</code>，除非您想要測試 IPv6 連線（改用 <code>ipv6.coscup.org</code>）。</p>
-
+<p>提供三種語言的網站導覽選單 HTML，設計給 <code>coscup.org</code> 的子網站使用。超連結（<code>href</code>）沒有 hostname，只有絕對路徑。取用這些頁面的網站通常是 <code>coscup.org</code>。</p>
+<!--
 <h3>提到 COSCUP 的噗 (<code>plurk</code>)</h3>
 
 <ul>
@@ -98,11 +101,11 @@
 </ul>
 
 <p>只是個 <code>//www.plurk.com/API/PlurkSearch/search?query=COSCUP</code> 的 Proxy。資料結構請參考 <a href="//www.plurk.com/API#search">Plurk API 1.0 文件</a>。搜尋詞彙是寫死的，且更新速率限制在 10 分鐘以上。如果需要即時的資訊請自己申請 API key 直接存取噗浪。</p>
-
+-->
 <h3>議程 (<code>program</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/program/</code>。<a href="//json-indent.appspot.com/indent?url=/2012/api/program/">縮排顯示</a>。</li>
+<li>URL: <code>https://coscup.org/2012/api/program.json</code>&nbsp;<a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/program.json">縮排顯示</a>。</li>
 </ul>
 
 <p>大約 ~50KB 大的 JSON 文件，列出 COSCUP 2012 的所有議程。可能的話，應用程式<strong>應</strong>留存此資料的快取（網路應用程式可以使用<code>localStorage</code>；<a href="//diveintohtml5.org/storage.html">參考資料</a>）。議程<em>可能</em>是照時間順序排列，但是不一定；程式<strong>應</strong>具有處理不照時間排列的資料的能力。另外，議程更新的時候講次在列表上的順序可能會改變；程式<strong>不應</strong>使用順序來辨識講次。</p>
@@ -116,7 +119,7 @@
 <h3>贊助單位 (<code>sponsors</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/sponsors/</code>。<a href="//json-indent.appspot.com/indent?url=/2012/api/sponsors/">縮排顯示</a>。</li>
+<li>URL: <code>https://coscup.org/2012/api/sponsors.json</code>&nbsp;<a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/sponsors.json">縮排顯示</a>。</li>
 </ul>
 
 <p>COSCUP 2012 的贊助商資訊。程式<strong>應</strong>內建各贊助等級的順序，各等級內的贊助單位順序在列出時<strong>應</strong>保存；在只能顯示一個贊助單位的場合，要顯示哪個贊助單位的機制必須使用加權隨機的方式挑選，加權比率如下：</p>

@@ -78,19 +78,23 @@
 </div>
 <div id="content">
 <h2>API Documentation</h2>
-
+<!--
 <p>COSCUP 2012 website provide following <strong>read-only</strong> JSON-P APIs for your application to access. Since they are provided in JSON-P, they are useful in client-side web applications too &mdash; just add the <code>callback</code> parameter. You many also utilize Cross-Origin Resource Sharing if the browser targeted supports it. <code>Access-Control-Allow-Origin: *</code> is added to HTTP header to all URLs.</p>
+-->
+
+<p>COSCUP 2013 Webiste move to GitHub Pages since 2018/08/20, therefore we not offer JSON-P API anymore, only static JSON file below. <code>Access-Control-Allow-Origin: *</code> is added to HTTP header to all URLs</p>
+<p>Old API document HTML file can be found at <a href="//github.com/COSCUP/2012/blob/master/en/api/index.html">here</a></p>
 
 <p>You may contact <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#116;&#x69;&#109;&#100;&#x72;e&#97;&#x6d;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#116;&#x69;&#109;&#100;&#x72;e&#97;&#x6d;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a> if there is any questions regarding APIs.</p>
 
 <h3>Navigation menu (<code>menu</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/menu/</code>. <a href="//json-indent.appspot.com/indent?url=/2012/api/menu/">Indented view</a>.</li>
+<li>URL: <code>https://coscup.org/2012/api/menu.json</code>. <a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/menu.json">Indented view</a>.</li>
 </ul>
 
-<p>Provide HTMLs of navigation menus of the three languages. Intend to be used internally on sub-domains of <code>coscup.org</code>. Hyper references (<code>href</code>) within do not come with hostnames, they are absolute path that begins with <code>/2012/</code>. The hostname to serve these pages are almost always <code>coscup.org</code>, with <code>ipv6.coscup.org</code> as exception should you would like to test IPv6 connectivity.</p>
-
+<p>Provide HTMLs of navigation menus of the three languages. Intend to be used internally on sub-domains of <code>coscup.org</code>. Hyper references (<code>href</code>) within do not come with hostnames, they are absolute path that begins with <code>/2012/</code>. The hostname to serve these pages are almost always <code>coscup.org</code>.</p>
+<!--
 <h3>Plurks mentioning COSCUP (<code>plurk</code>)</h3>
 
 <ul>
@@ -98,11 +102,11 @@
 </ul>
 
 <p>Simply a proxy of <code>//www.plurk.com/API/PlurkSearch/search?query=COSCUP</code>. See <a href="//www.plurk.com/API#search">Plurk API 1.0 documentation</a> for detail. The search term is hard-coded and the refresh rate is limited to 10 min. You should access Plurk directly (with your own API key) if you need real-time data.</p>
-
+-->
 <h3>Program (<code>program</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/program/</code>. <a href="//json-indent.appspot.com/indent?url=/2012/api/program/">Indented view</a>.</li>
+<li>URL: <code>https://coscup.org/2012/api/program.json</code>. <a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/program.json">Indented view</a>.</li>
 </ul>
 
 <p>A ~50KB JSON object that represents all the talks that will be given at COSCUP 2012. Your application <strong>should</strong> cache the result when possible (Web app may utilize <code>localStorage</code>; see <a href="//diveintohtml5.org/storage.html">introduction</a>). The talk array <em>may</em> ordered by time but not necessary &mdash; your application <strong>must</strong> be able to accept and process an unsorted list. Also, the placement of a talk on the list could vary as programs being updated &mdash; your application <strong>must not</strong> rely on the placement to identify the session.</p>
@@ -116,7 +120,7 @@
 <h3>Sponsors (<code>sponsors</code>)</h3>
 
 <ul>
-<li>URL: <code>/2012/api/sponsors/</code>. <a href="//json-indent.appspot.com/indent?url=/2012/api/sponsors/">Indented view</a>.</li>
+<li>URL: <code>https://coscup.org/2012/api/sponsors.json</code>. <a href="//json-indent.appspot.com/indent?url=https://coscup.org/2012/api/sponsors.json">Indented view</a>.</li>
 </ul>
 
 <p>List of COSCUP 2012 sponsors. You <strong>must</strong> hard-code the order of sponsorship levels. The list of sponsors within each of the sponsorship level is ordered, when shown as whole, the order <strong>must</strong> be maintained; if only one of the sponsors could be shown, the one to be shown <strong>must</strong> picked randomly with following weighted factor:</p>

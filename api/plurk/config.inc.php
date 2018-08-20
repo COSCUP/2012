@@ -1,3 +1,0 @@
-<?php
-
-define('API_KEY', 'T0WSKZvwWF5qIfR21845ZdDhRSDX3827');

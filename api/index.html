@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>COSCUP 2012 API</title>
+</head>
+<script type="text/javascript">
+    var userLang = navigator.language || navigator.userLanguage; 
+    switch (userLang) {
+        case "zh-TW":
+            window.location.href = "../zh-tw/api/" ;
+            break;
+    
+        case "zh-CN":
+            window.location.href = "../zh-cn/api/" ;
+            break;
+
+        default:
+            window.location.href = "../en/api/" ;
+            break;
+    }
+</script>
+</html>
